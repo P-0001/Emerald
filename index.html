@@ -6,8 +6,6 @@
 <script>
     function GetLatestReleaseInfo() {
         $.getJSON("https://api.github.com/repos/P-0001/emeraldAIO/releases/latest").done(function (release) {
-            console.log(release.name)
-            console.log("2", release.name[0])
             let r = release.name
             document.getElementById("txt").innerText = `Downloading Version ${r}`
             let a = release.assets[0].browser_download_url
