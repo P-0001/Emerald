@@ -1,29 +1,34 @@
-<title>Emeraldaio Download</title>
-<h1>Emeraldaio Download</h1>
-<h2 id="txt">V</h2>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<div style="background-image: url('https://cdn.discordapp.com/attachments/803071036622372864/839891221782593577/fgdjdgfjfdj.png');">
-    <form id="loginForm" class="customForm" style="margin-top: 20px">
-          <div class="wrap">
-            <div class="formInputDiv" style="margin-bottom: 0px !important">
-              <label for="licansekey">License Key</label>
-              <input class="customInput" id="licansekey" type="text" />
-            </div>
-          </div>
-        </form>
-    <button type="submit" style="margin: 0px; margin-top: 0px; width: 100%; height: 43px" id="loginBtn"
-          class="btn btn-outline-primary">
-          Login
-        </button>
-<script>
-    
-    function GetLatestReleaseInfo() {
-        $.getJSON("https://api.github.com/repos/P-0001/emeraldAIO/releases/latest").done(function (release) {
-            let r = release.name
-            document.getElementById("txt").innerText = `Downloading Version ${r}`
-            let a = release.assets[0].browser_download_url
-            window.location.href = a
-        })
+<style>
+    body {
+        background-image: url("https://media.discordapp.net/attachments/803071036622372864/839891305126428692/tghkjghj.png");
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #6654f1;
     }
-    
-</script>
+</style>
+
+<body>
+    <script>
+        function GetLatestReleaseInfo() {
+$.getJSON("https://api.github.com/repos/P-0001/emeraldAIO/releases/latest%22).done(function (release)
+{
+console.log(release)
+let a = release.assets[0].browser_download_url
+window.location.href = a
+}).done(function(){
+window.close();
+})
+//window.location.href = url
+}
+    </script>
+
+    <title>Emerald Download </title>
+    <h1 style="color:#ffffff;">Emerald Download </h1>
+    <h2 style="color:#ffffff;" id="txt">Version</h2>
+    <script src="scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <label style="color:#ffffff;" for="key" style="color:#ffffff;">Emerald Key</label><br><br>
+    <input style="color:#ffffff;" type="tel" id="key" name="key" placeholder="XXXX-XXXX-XXXX-XXXX" pattern=".{19,}"><br><br>
+    <button onclick="GetLatestReleaseInfo();">Authenticate And Download</button>
+</body>
