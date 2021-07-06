@@ -1,6 +1,6 @@
 <title>Hi</title>
 <title>Emeraldaio Download</title>
-<h1>Websites for you and your projects.</h1>
+<h1>Emeraldaio Download</h1>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
     function GetLatestReleaseInfo() {
@@ -8,10 +8,9 @@
             console.log(release)
             let a = release.assets[0].browser_download_url
             window.location.href = a
-        }).done(function(){
-            window.close();
         })
-        //window.location.href = url
     }
-    GetLatestReleaseInfo()
+    GetLatestReleaseInfo();
+    function close_window() { if (confirm("Close Window?")) {close(); }}
+    close_window()
 </script>
