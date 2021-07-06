@@ -2,8 +2,21 @@
 <h1>Emeraldaio Download</h1>
 <h2 id="txt">V</h2>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+<div style="background-image: url('https://cdn.discordapp.com/attachments/803071036622372864/839891221782593577/fgdjdgfjfdj.png');">
+    <form id="loginForm" class="customForm" style="margin-top: 20px">
+          <div class="wrap">
+            <div class="formInputDiv" style="margin-bottom: 0px !important">
+              <label for="licansekey">License Key</label>
+              <input class="customInput" id="licansekey" type="text" />
+            </div>
+          </div>
+        </form>
+    <button type="submit" style="margin: 0px; margin-top: 0px; width: 100%; height: 43px" id="loginBtn"
+          class="btn btn-outline-primary">
+          Login
+        </button>
 <script>
+    
     function GetLatestReleaseInfo() {
         $.getJSON("https://api.github.com/repos/P-0001/emeraldAIO/releases/latest").done(function (release) {
             let r = release.name
@@ -12,5 +25,5 @@
             window.location.href = a
         })
     }
-    GetLatestReleaseInfo();
+    
 </script>
