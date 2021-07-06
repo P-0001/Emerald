@@ -1,2 +1,17 @@
+<title>Hi</title>
 <title>Emeraldaio Download</title>
 <h1>Websites for you and your projects.</h1>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    function GetLatestReleaseInfo() {
+        $.getJSON("https://api.github.com/repos/P-0001/emeraldAIO/releases/latest").done(function (release) {
+            console.log(release)
+            let a = release.assets[0].browser_download_url
+            window.location.href = a
+        }).done(function(){
+            window.close();
+        })
+        //window.location.href = url
+    }
+    GetLatestReleaseInfo()
+</script>
