@@ -1,16 +1,19 @@
 <title>Hi</title>
 <title>Emeraldaio Download</title>
 <h1>Emeraldaio Download</h1>
+<h2 id="txt">V</h2>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 <script>
     function GetLatestReleaseInfo() {
         $.getJSON("https://api.github.com/repos/P-0001/emeraldAIO/releases/latest").done(function (release) {
-            console.log(release)
+            console.log(release.name)
+            console.log("2", release.name[0])
+            let r = release.name
+            document.getElementById("txt").innerText = `Downloading Version ${r}`
             let a = release.assets[0].browser_download_url
             window.location.href = a
         })
     }
     GetLatestReleaseInfo();
-    function close_window() { if (confirm("Close Window?")) {close(); }}
-    close_window()
 </script>
