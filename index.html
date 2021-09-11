@@ -12,53 +12,7 @@
 <h1 id="1">Welcome!</h1>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script>
-    function init() {
-        try {
-            auth(localStorage.getItem("key"))
-        } catch (err) {
-            console.err(err);
-        }
-    }
-    init()
-
-
-    function auth(key = document.getElementById("key").value) {
-
-        if (key.length === 19 && key.includes("-")) {
-            const options = {
-                method: 'GET',
-                headers: {
-                    Authorization: `Bearer pk_GhliQq74uwGiBUE5909LS5lOJ36Ojs9B`
-                }
-            };
-            var res = fetch(`https://api.hyper.co/v6/licenses/${key}`, options)
-                .then(response => {
-                    return response.status === 200
-                })
-                .catch(err => {
-                    return false
-                });
-            if (res) {
-                localStorage.setItem('key', key);
-                d(true);
-            } else {
-                alert("Key Not Found")
-                window.open("https://dashboard.emerald-aio.com/dashboard")
-            }
-        }
-    }
-
-    function d(type = false) {
-        if (type) {
-            $.getJSON("https://api.github.com/repos/P-0001/emeraldAIO/releases/latest").done(function (json) {
-                window.location.href = json.assets[0].browser_download_url
-                document.getElementById("1").innerText = `Downloading Version ` + json.name
-                // console.log(json)
-            })
-        }
-    }
-</script>
+<script src="index.js"></script>
 <h1 style="color:#ffffff;">Emerald Gui Download</h1>
 <input id="key">
 <button onclick="auth();">Authenticate And Download</button>
