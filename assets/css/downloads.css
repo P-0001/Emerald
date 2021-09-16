@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+
+  height: 100vh;
+  background: linear-gradient(180deg, #3d1c97 0%, #7611a8 100%);
+}
+.container {
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.download-module {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 699px;
+  height: 495px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-sizing: 0px 0px 193.434px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  width: 88.98px;
+  height: 88.98px;
+  margin-top: 59px;
+}
+
+p {
+  margin-top: 44.02px;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+#licenseKey {
+  margin-top: 83px;
+  background: #100a1d;
+  border: 2px solid #271b29;
+  border-radius: 7px;
+  width: 612px;
+  min-height: 59px;
+
+  font-size: 18px;
+  color: #75798f;
+  text-align: center;
+
+  outline: none;
+}
+
+#invalidLicenseKey {
+  margin-top: 2px;
+  margin-bottom: 0 !important;
+  font-size: 18px;
+  color: #fc1f5d;
+}
+
+#downloadBtn {
+  cursor: pointer;
+  margin-top: 6px;
+  width: 612px;
+  height: 59px;
+  background: #6d0dbd;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.download-icon {
+  width: 16px;
+  height: 16px;
+
+  margin-left: 5px;
+}
+@media (max-width: 750px) {
+  .download-module {
+    width: 540.84px;
+    height: 383px;
+  }
+
+  .logo {
+    margin-top: 45px;
+  }
+
+  p {
+    margin-top: 34px;
+    font-size: 17px;
+  }
+
+  #licenseKey {
+    margin-top: 48px;
+    width: 473.53px;
+    height: 45.65px;
+  }
+
+  #downloadBtn {
+    margin-top: 27px;
+    width: 473.53px;
+    height: 45.65px;
+  }
+}
+
+@media (max-width: 550px) {
+  .download-module {
+    width: 378px;
+    height: 267.68px;
+  }
+
+  .logo {
+    margin-top: 31px;
+    width: 48.12px;
+    height: 48.12px;
+  }
+
+  p {
+    margin-top: 23px;
+    font-size: 11px;
+  }
+
+  #licenseKey {
+    margin-top: 44px;
+    width: 330.95px;
+    height: 31.91px;
+    font-size: 12px;
+  }
+
+  #downloadBtn {
+    margin-top: 19px;
+    width: 330.95px;
+    height: 31.91px;
+    font-size: 12px;
+  }
+
+  .download-icon {
+    display: none;
+  }
+}
