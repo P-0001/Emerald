@@ -1,5 +1,5 @@
 (function ($) {
-	window.location.href = "./downloads"
+	//window.location.href = "./downloads"
 
 	var $window = $(window),
 		$body = $('body'),
