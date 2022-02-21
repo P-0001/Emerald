@@ -1,6 +1,4 @@
 (function ($) {
-	//window.location.href = "./downloads"
-
 	var $window = $(window),
 		$body = $('body'),
 		$sidebar = $('#sidebar');
