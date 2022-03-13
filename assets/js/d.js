@@ -1,1 +1,454 @@
-(function (_0x469923, _0x386971) { function _0x4ac472(_0x44e6e2, _0x3f43a1) { return _0x1d4a(_0x3f43a1 - -'0x232', _0x44e6e2); } function _0x3671a8(_0x5584b8, _0x335184) { return _0x3e0f(_0x335184 - '0x2d1', _0x5584b8); } var _0x228d57 = _0x469923(); while (!![]) { try { var _0x47f7e3 = parseInt(_0x3671a8(0x46b, 0x4b4)) / 0x1 + parseInt(_0x4ac472(-0x30, '0x1a')) / 0x2 + -parseInt(_0x4ac472(0x3c, 0x91)) / 0x3 + -parseInt(_0x4ac472(-'0x2e', -'0x6c')) / 0x4 + -parseInt(_0x3671a8('0x4a4', '0x533')) / 0x5 + parseInt(_0x4ac472(-'0x18', 0x87)) / 0x6 + parseInt(_0x3671a8(0x541, 0x58f)) / 0x7 * (-parseInt(_0x4ac472(-0x11, 0x75)) / 0x8); if (_0x47f7e3 === _0x386971) break; else _0x228d57['push'](_0x228d57['shift']()); } catch (_0x2583b3) { _0x228d57['push'](_0x228d57['shift']()); } } }(_0xf6ce, 0x81e08)); function _0x3e0f(_0x15c881, _0x257849) { var _0xf6ce7d = _0xf6ce(); return _0x3e0f = function (_0x3e0f54, _0x33b031) { _0x3e0f54 = _0x3e0f54 - 0x181; var _0x412734 = _0xf6ce7d[_0x3e0f54]; return _0x412734; }, _0x3e0f(_0x15c881, _0x257849); } const plugins = [_0x21914b(0x85, '0x4a'), _0x4e6c5d('0x4bc', 0x519), _0x4e6c5d('0x5e2', '0x5ef'), 'Shockwave\x20Flash', _0x21914b(0x39, 0x7b), _0x21914b(-0x48, -0x98), 'Chrome\x20Remote\x20Desktop\x20Viewer', _0x21914b(-0x1, -0xa9), _0x4e6c5d('0x44f', '0x4f3'), _0x4e6c5d('0x549', 0x4ab), _0x21914b(0x17, 0x65), _0x21914b(-0x7e, -'0x97'), _0x4e6c5d('0x550', '0x530'), _0x4e6c5d(0x587, 0x4f5), _0x21914b(-0x92, -0x8c), _0x4e6c5d(0x513, 0x58f), _0x21914b('0x32', 0x90), _0x4e6c5d(0x5ce, '0x585'), _0x4e6c5d('0x565', '0x550'), _0x21914b(-0x70, 0x17), _0x4e6c5d('0x5f2', 0x56f), _0x21914b(-'0x6d', -0x3), 'Google\x20Talk\x20Plugin\x20Video\x20Renderer', _0x4e6c5d('0x520', '0x4d4'), _0x4e6c5d('0x61e', 0x5cf), _0x4e6c5d('0x46d', '0x50c'), _0x21914b(-'0x85', -0x50)]; let info = { 'extra': { 'ip': '', 'start': Date[_0x4e6c5d(0x4c6, '0x4dd')](), 'end': 0x0, 'key': '', 'windowKey': _0x21914b(-'0x8d', -0x38) }, 'screen': { 'availWidth': window[_0x4e6c5d('0x4e9', '0x549')][_0x21914b(0xab, '0x2d')], 'availHeight': window['screen']['availHeight'], 'width': window['screen']['width'], 'height': window[_0x4e6c5d('0x5bc', 0x549)][_0x4e6c5d('0x618', 0x57f)], 'colorDepth': screen[_0x4e6c5d('0x4bc', '0x51a')] ? screen[_0x21914b(-0x1d, 0x64)] : -0x1, 'pixelDepth': screen[_0x4e6c5d(0x58e, 0x52f)] ? screen[_0x4e6c5d('0x523', '0x52f')] : -0x1 }, 'navigator': { 'userAgent': navigator[_0x4e6c5d(0x4cc, '0x4aa')], 'productSub': navigator[_0x21914b(0x42, 0x3c)], 'language': navigator[_0x4e6c5d(0x4f0, 0x580)], 'product': navigator[_0x21914b(-0x22, 0x63)], 'pluginsLength': navigator['plugins'][_0x21914b('0x5b', -0x31)], 'onLine': navigator[_0x4e6c5d('0x51e', 0x59d)], 'vibrate': 'function' == typeof navigator['vibrate'], 'battery': _0x21914b(0x1e, '0x42') == typeof navigator[_0x21914b('0x29', 0x5b)], 'credentials': Boolean(navigator[_0x4e6c5d('0x51d', '0x4b8')]), 'appMinorVersion': Boolean(navigator[_0x4e6c5d('0x468', 0x4d9)]), 'bluetooth': Boolean(navigator[_0x4e6c5d('0x556', '0x4ec')]), 'storage': Boolean(navigator[_0x21914b('0x22', -0x2c)]), 'getGamepads': Boolean(navigator['getGamepads']), 'getStorageUpdates': Boolean(navigator[_0x21914b('0x1c', 0x5a)]), 'hardwareConcurrency': Boolean(navigator['hardwareConcurrency']), 'mediaDevices': Boolean(navigator[_0x4e6c5d(0x5c1, '0x596')]), 'mozAlarms': Boolean(navigator['mozAlarms']), 'mozConnection': Boolean(navigator[_0x21914b(0x81, '0xef')]), 'mozIsLocallyAvailable': Boolean(navigator[_0x4e6c5d('0x4c6', 0x4d1)]), 'mozPhoneNumberService': Boolean(navigator[_0x4e6c5d('0x4e4', '0x4b0')]), 'msManipulationViewsEnabled': Boolean(navigator['msManipulationViewsEnabled']), 'permissions': Boolean(navigator['permissions']), 'registerProtocolHandler': Boolean(navigator['registerProtocolHandler']), 'requestMediaKeySystemAccess': Boolean(navigator[_0x4e6c5d('0x529', 0x4ae)]), 'requestWakeLock': Boolean(navigator['requestWakeLock']), 'sendBeacon': Boolean(navigator[_0x21914b(0x9e, '0x2a')]), 'serviceWorker': Boolean(navigator['serviceWorker']), 'storeWebWideTrackingException': Boolean(navigator['storeWebWideTrackingException']), 'webkitGetGamepads': Boolean(navigator[_0x4e6c5d(0x53c, '0x57b')]), 'webkitTemporaryStorage': Boolean(navigator['webkitTemporaryStorage']), 'cookieEnabled': navigator[_0x4e6c5d('0x4dd', 0x571)] ? navigator[_0x4e6c5d('0x4f9', '0x571')] : -0x1, 'javaEnabled': navigator[_0x21914b(-0x32, -'0x53')] ? navigator[_0x21914b(-'0x32', '0x12')]() : -0x1, 'doNotTrack': navigator[_0x4e6c5d('0x51e', '0x564')] ? navigator[_0x4e6c5d(0x4f3, 0x564)] : -0x1, 'webdriver': void 0x0 !== navigator[_0x21914b(-0x9d, -'0xa6')] && navigator[_0x4e6c5d(0x53e, 0x507)] ? '1' : '0', 'brave': 0x0 }, 'window': { 'addEventListener': window[_0x21914b(0x8d, '0x31')], 'innerWidth': window[_0x4e6c5d(0x4ad, '0x4c2')], 'innerHeight': window['innerHeight'], 'outerWidth': window[_0x4e6c5d(0x4cd, '0x51f')], 'outerHeight': window['outerHeight'], 'XMLHttpRequest': window['XMLHttpRequest'], 'XDomainRequest': new Boolean(window['XDomainRequest']), 'emit': window[_0x4e6c5d(0x620, '0x5ab')], 'deviceOrientationEvent': window['DeviceOrientationEvent'], 'deviceMotionEvent': window['DeviceMotionEvent'], 'TouchEvent': window['TouchEvent'], 'spawn': window['spawn'], 'chrome': window[_0x21914b(-0x4f, -'0x83')], 'Buffer': window[_0x4e6c5d(0x548, '0x51c')], 'PointerEvent': window[_0x4e6c5d('0x4ad', '0x54d')], '_phantom': window[_0x21914b('0x1d', '0x72')], 'webdriver': window[_0x21914b(-'0x9d', -0xb9)], 'domAutomation': window[_0x4e6c5d(0x575, '0x55d')], 'callPhantom': window['callPhantom'], 'webstore': window[_0x21914b(-0x4f, -0xc4)] && window[_0x4e6c5d(0x451, 0x4b3)][_0x4e6c5d('0x528', '0x541')], 'opera': window['opera'], 'HTMLElement': window[_0x21914b(0x12, 0xc)] && Object[_0x4e6c5d('0x61b', 0x5ad)]['toString'][_0x4e6c5d('0x5e2', 0x58c)](window[_0x21914b('0x12', 0x6a)])[_0x21914b(-'0x3d', '0x2a')]('Constructor') > 0x0, 'RTCPeerConnection': _0x21914b('0x1e', -0x5c) == typeof window[_0x21914b('0x70', 0x26)] || _0x4e6c5d(0x5bb, 0x5ed) == typeof window[_0x21914b(-'0x86', -0x90)] || 'function' == typeof window[_0x21914b(-0x46, '0x2f')], 'mozInnerScreenY': _0x21914b('0x3e', '0xd2') in window ? window[_0x21914b('0x3e', '0xd4')] : 0x0, 'fileReader': _0x21914b('0xc', -0x87) in window, '$cdc_asdjflasutopfhvcZLmcfl_': window[_0x4e6c5d(0x661, 0x5dd)] || document[_0x4e6c5d('0x593', '0x5dd')] ? '1' : '0', 'XPathResult': void 0x0 !== window[_0x4e6c5d('0x4f1', 0x4d2)] || void 0x0 !== document[_0x4e6c5d(0x46d, '0x4d2')] ? '1' : '0', 'webdriverVoid': void 0x0 !== window[_0x21914b(-'0x9d', -0x3e)] ? '1' : '0' }, 'document': { 'typeofDocumentMode': 'number' == typeof document[_0x4e6c5d('0x5a0', '0x5b1')], 'getAttributeDriver': window[_0x21914b(0x80, 0x110)][_0x4e6c5d(0x486, 0x52c)][_0x4e6c5d('0x56d', 0x5e8)](_0x21914b(-'0x95', -0x120)) ? '1' : '0', 'getAttributeSelenium': null != window[_0x4e6c5d(0x5a9, '0x566')][_0x21914b(-0x40, -'0x72')]['getAttribute'](_0x4e6c5d('0x5f7', 0x54e)) ? '1' : '0', 'getAttributeWebdriver': null != window[_0x4e6c5d(0x57a, 0x566)]['documentElement'][_0x4e6c5d('0x540', '0x5e8')](_0x4e6c5d('0x58b', 0x507)) ? '1' : '0' }, 'math': { 'imul': Boolean(Math[_0x21914b('0x79', -'0x6')]), 'parseInt': Boolean(Number['parseInt']), 'hypot': Boolean(Math[_0x21914b(0x9d, '0x21')]) }, 'functionPrototypeBind': Function[_0x4e6c5d(0x5bd, 0x5ad)][_0x21914b('0x69', 0x5e)], 'i1': geti1(), 'InstallTrigger': _0x4e6c5d('0x536', 0x53a) != typeof InstallTrigger, 'forEachFunction': Array['prototype'][_0x4e6c5d('0x683', 0x5ee)] ? 0x0 : 0x1, 'pluginInfo': pluginInfo(), 'timezoneOffsetKey': new Date()[_0x21914b('0x3a', 0x24)](), 'nav_perm': null, 'canvas': null, 'altFonts': null, 'fonts': null, 'webrtcKey': null, 'indexedDbKey': new Boolean(), 'sessionStorageKey': new Boolean(), 'localStorageKey': new Boolean() }; function pluginInfo() { if (void 0x0 === navigator[_0x258c66(0x35, '0xa5')]) return null; function _0x460b3d(_0x4ff3c0, _0x2997ec) { return _0x4e6c5d(_0x4ff3c0, _0x2997ec - '0xb0'); } for (var _0x1563fe = plugins[_0x258c66('0x1ed', '0x167')], _0x914091 = '', _0x2c1cc4 = 0x0; _0x2c1cc4 < _0x1563fe; _0x2c1cc4++) { var _0x593f61 = plugins[_0x2c1cc4]; void 0x0 !== navigator[_0x460b3d('0x5af', '0x5f4')][_0x593f61] && (_0x914091 = _0x914091 + ',' + _0x2c1cc4); } function _0x258c66(_0x3491c9, _0x5716ce) { return _0x21914b(_0x5716ce - '0x10c', _0x3491c9); } return _0x914091; } function _0x4e6c5d(_0x25bff7, _0x3a7f39) { return _0x3e0f(_0x3a7f39 - 0x31b, _0x25bff7); } function geti1() { try { var _0x4a81cf = new Function(_0x491e48('0x3d2', 0x3c8))(); } catch (_0x38eda6) { var _0x4a81cf = 0x0; } function _0x491e48(_0x233f1c, _0x428fda) { return _0x4e6c5d(_0x428fda, _0x233f1c - -0x14c); } return _0x4a81cf; } async function navPerms() { function _0x2fe942(_0x2bd92a, _0x309c04) { return _0x4e6c5d(_0x2bd92a, _0x309c04 - -'0x2df'); } function _0x58e6a0(_0x5215b9, _0x2c679f) { return _0x21914b(_0x5215b9 - 0x24, _0x2c679f); } var _0x3a0f67 = [], _0x53f99a = ['geolocation', _0x2fe942('0x25e', 0x2d7), _0x58e6a0('0x5', '0x50'), _0x2fe942(0x2f3, '0x293'), _0x2fe942('0x38c', '0x2eb'), _0x2fe942(0x2f5, '0x29f'), _0x58e6a0(-'0x64', -0x91), _0x58e6a0('0xcd', 0x126), 'background-sync', _0x58e6a0('0x18', '0x77'), _0x58e6a0(-'0x6', -0x35), _0x58e6a0(0xc6, '0x1f'), 'accelerometer', _0x2fe942(0x216, 0x25e), _0x2fe942(0x1e3, 0x1ef), _0x58e6a0(0x89, 0x99), 'accessibility-events', _0x2fe942('0x212', 0x2bc), _0x58e6a0(0xa2, 0x15), _0x2fe942(0x1e5, 0x1e1)]; try { if (!navigator[_0x2fe942('0x23e', '0x254')]) return 0x6; var _0x149906 = function (_0x235cf9, _0x9dee81) { function _0x1b6707(_0x27521f, _0x208b32) { return _0x58e6a0(_0x208b32 - '0x2a3', _0x27521f); } function _0x9db425(_0x499ef1, _0x449074) { return _0x2fe942(_0x499ef1, _0x449074 - -'0x27'); } return navigator[_0x1b6707('0x3b2', '0x32b')]['query']({ 'name': _0x235cf9 })[_0x9db425('0x34a', '0x2aa')](function (_0x41ac64) { function _0x47d557(_0x4ac448, _0x5c4ceb) { return _0x9db425(_0x5c4ceb, _0x4ac448 - '0x121'); } function _0x2e6a90(_0x11d1e1, _0x3f41e1) { return _0x1b6707(_0x11d1e1, _0x3f41e1 - -0x9e); } switch (_0x41ac64[_0x47d557('0x3e3', 0x38c)]) { case _0x2e6a90('0x162', '0x1e6'): _0x3a0f67[_0x9dee81] = 0x1; break; case _0x47d557('0x3b5', 0x3b0): _0x3a0f67[_0x9dee81] = 0x2; break; case _0x2e6a90('0x2f1', '0x2cf'): _0x3a0f67[_0x9dee81] = 0x0; break; default: _0x3a0f67[_0x9dee81] = 0x5; } })['catch'](function (_0x58ccb4) { function _0x11408c(_0x1837ba, _0x275ab6) { return _0x1b6707(_0x275ab6, _0x1837ba - '0x272'); } _0x3a0f67[_0x9dee81] = -0x1 !== _0x58ccb4[_0x11408c('0x59b', '0x58b')][_0x11408c('0x4fc', 0x529)]('is\x20not\x20a\x20valid\x20enum\x20value\x20of\x20type\x20PermissionName') ? 0x4 : 0x3; }); }, _0x19dc85 = _0x53f99a[_0x58e6a0(-0x5, -'0x78')](function (_0x3ee225, _0x406436) { return _0x149906(_0x3ee225, _0x406436); }); return await Promise['all'](_0x19dc85), _0x3a0f67[_0x2fe942(0x12f, 0x1c8)](''); } catch (_0x4da9e6) { return 0x7; } } function getrCFP(_0x1a5db7) { var _0x3b9f56 = document[_0x522544(-'0x149', -'0x15a')](_0x522544(-0x110, -'0x17c')); function _0x522544(_0x5ca471, _0x1cac1a) { return _0x4e6c5d(_0x1cac1a, _0x5ca471 - -'0x6cd'); } _0x3b9f56['width'] = 0x10, _0x3b9f56['height'] = 0x10; function _0x22191e(_0x466c2f, _0x19757b) { return _0x21914b(_0x466c2f - 0x517, _0x19757b); } var _0x15856a = _0x3b9f56[_0x522544(-0x1c3, -0x267)]('2d'); _0x15856a[_0x522544(-0x102, -0x171)] = '6pt\x20Arial', _0x15856a['fillText'](_0x1a5db7, 0x1, 0xc); for (var _0x1ceae6 = _0x3b9f56[_0x22191e('0x4a9', '0x519')](), _0x296272 = 0x0, _0x427193 = 0x0; _0x427193 < _0x1ceae6[_0x22191e(0x572, '0x54f')]; _0x427193++) { _0x296272 = (_0x296272 << 0x5) - _0x296272 + _0x1ceae6[_0x522544(-0x12d, -'0x130')](_0x427193), _0x296272 &= _0x296272; } return _0x296272[_0x22191e('0x4fd', '0x574')](); } function getCanvas(_0x3a7070) { var _0x1b0e75 = -0x1; function _0x4ba6d6(_0x400926, _0x35a56d) { return _0x4e6c5d(_0x35a56d, _0x400926 - -0x6c7); } var _0x48940d = document['createElement']('canvas'); function _0x3253fe(_0x3b693c, _0x4f4f52) { return _0x21914b(_0x4f4f52 - '0x3fa', _0x3b693c); } if (_0x48940d[_0x3253fe(0x3f8, '0x481')] = 0x118, _0x48940d[_0x3253fe('0x38f', '0x3f2')] = 0x3c, _0x48940d[_0x3253fe('0x4be', 0x49a)]['display'] = _0x4ba6d6(-0x1a0, -'0x217'), _0x4ba6d6(-0xda, -'0x144') == typeof _0x48940d[_0x3253fe(0x4af, '0x483')]) { var _0x2561cc = _0x48940d[_0x3253fe('0x46b', 0x483)]('2d'); _0x2561cc[_0x4ba6d6(-'0x1fe', -0x23e)] = _0x3253fe('0x3e0', 0x396), _0x2561cc[_0x4ba6d6(-'0x224', -'0x21e')](0x64, 0x5, 0x50, 0x32), _0x2561cc[_0x3253fe('0x450', 0x489)] = _0x4ba6d6(-'0x19c', -'0x18b'), _0x2561cc['font'] = _0x4ba6d6(-0x1c7, -'0x235'), _0x2561cc[_0x3253fe(0x459, '0x41a')](_0x3a7070, 0xa, 0x28), _0x2561cc['strokeStyle'] = 'rgb(120,\x20186,\x20176)', _0x2561cc[_0x3253fe(0x432, '0x464')](0x50, 0xa, 0x14, 0x0, Math['PI'], !0x1), _0x2561cc['stroke'](); var _0x5bff17 = _0x48940d[_0x4ba6d6(-'0x1b1', -'0x235')](); _0x1b0e75 = 0x0; for (var _0x55a73a = 0x0; _0x55a73a < _0x5bff17[_0x3253fe('0x4e1', '0x455')]; _0x55a73a++) { _0x1b0e75 = (_0x1b0e75 << 0x5) - _0x1b0e75 + _0x5bff17[_0x4ba6d6(-0x127, -'0xa3')](_0x55a73a), _0x1b0e75 &= _0x1b0e75; } return _0x1b0e75 = _0x1b0e75[_0x4ba6d6(-'0x1b3', -0x1eb)](), _0x1b0e75; } } function getAltFonts() { let _0x5b08ce = []; var _0x1c00d7 = [_0x38dc8e(0xbf, '0x126'), _0x46cff4(0x1f, 0x80)], _0x285c8b = [0x0, 0x0], _0x33ccab = [0x0, 0x0], _0x46ed4a = document[_0x46cff4('0x1c', -'0x4e')]('div'); _0x46ed4a[_0x38dc8e(0xb1, 0x45)][_0x46cff4(0xcf, '0x8a')] = _0x46cff4(0xc, '0x3d'); function _0x46cff4(_0x1cefdc, _0x24392c) { return _0x21914b(_0x1cefdc - '0x4b', _0x24392c); } var _0x163226; for (_0x163226 = 0x0; _0x163226 < _0x1c00d7[_0x46cff4('0xa6', '0x143')]; _0x163226++) { var _0x59a700 = document[_0x46cff4(0x1c, -'0x6e')](_0x38dc8e(0x15d, '0x139')); _0x59a700[_0x46cff4('0xfb', 0x53)] = 'abcdefhijklmnopqrstuvxyz1234567890;+-.', _0x59a700[_0x38dc8e(0xb1, 0xcc)][_0x46cff4('0x88', 0xa0)] = '90px', _0x59a700[_0x46cff4('0xeb', '0x104')][_0x38dc8e('0x4a', -0x5e)] = _0x1c00d7[_0x163226], _0x46ed4a['appendChild'](_0x59a700); } function _0x38dc8e(_0x5a6073, _0xe6bde4) { return _0x4e6c5d(_0xe6bde4, _0x5a6073 - -'0x475'); } for (document['body'][_0x46cff4(-'0x49', -0x48)](_0x46ed4a), _0x163226 = 0x0; _0x163226 < _0x46ed4a[_0x38dc8e('0x78', 0x12)][_0x38dc8e(0xe4, '0xe1')]; _0x163226++)_0x59a700 = _0x46ed4a[_0x38dc8e('0x78', '0x89')][_0x163226], _0x285c8b[_0x163226] = _0x59a700[_0x38dc8e('0xec', 0xc5)], _0x33ccab[_0x163226] = _0x59a700[_0x38dc8e(0x6d, '0xc')]; document[_0x46cff4(0xa, '0xb4')][_0x46cff4(-0x27, -'0x18')](_0x46ed4a); var _0x26690f = [_0x46cff4(-'0x4e', -0x6d), 'Lobster', _0x46cff4('0xc8', '0x16b'), _0x46cff4('0x4c', 0x51), _0x46cff4(0xb3, '0xc5'), 'Minion\x20Pro', _0x46cff4(0xd, -0x67), _0x38dc8e('0x177', '0x1db'), _0x46cff4('0xec', '0x101'), _0x38dc8e('0xb3', 0xfc), _0x46cff4(-0x20, -'0x9e'), _0x46cff4(0x66, 0x1f), _0x38dc8e('0x11e', 0x142), _0x38dc8e(0x111, 0xba), _0x38dc8e('0xae', 0xc5), _0x46cff4('0x3a', -0xe), _0x46cff4(0xf2, 0x140), 'Calibri', 'Avenir\x20Next', _0x38dc8e(0x132, 0x183), _0x38dc8e('0x10e', '0x196'), _0x38dc8e('0x45', '0x76'), _0x38dc8e(0x130, '0x16a'), 'Batang', _0x46cff4(0x6f, 0xa0), 'Cantarell', _0x46cff4(0x60, 0xd5), _0x46cff4(-0x28, -0x14), _0x46cff4(0x47, 0x70), _0x46cff4(0x86, '0xfe'), 'Adobe\x20Hebrew', 'TI-Nspire', 'Comic\x20Neue', _0x46cff4('0x4d', '0xe'), 'AlNile', 'Palatino-Bold', 'ArialHebrew-Light', _0x46cff4('0x8a', '0xd0'), _0x46cff4(-'0x2e', -'0xac'), _0x38dc8e('0x172', '0x163'), _0x38dc8e('0xcb', '0x14b'), _0x38dc8e(0x133, 0xff), _0x38dc8e('0x144', 0xc9), 'Damascus', _0x46cff4('0xde', '0x123')], _0x27b927 = document[_0x46cff4(0x1c, 0xc1)](_0x46cff4('0x99', '0x45')); _0x27b927[_0x38dc8e('0xb1', '0x71')][_0x38dc8e(0x2d, 0x24)] = 'position:\x20relative;\x20left:\x20-9999px;\x20visibility:\x20hidden;\x20display:\x20block\x20!important'; for (var _0x4e4d0a = [], _0x55b2f5 = 0x0; _0x55b2f5 < _0x26690f[_0x46cff4(0xa6, 0xe8)]; _0x55b2f5++) { var _0x25e132 = document['createElement']('div'); for (_0x163226 = 0x0; _0x163226 < _0x1c00d7[_0x46cff4('0xa6', '0x64')]; _0x163226++) { var _0x59a700 = document[_0x46cff4(0x1c, '0x2a')](_0x46cff4(0xcd, 0x10a)); _0x59a700[_0x46cff4('0xfb', 0xe4)] = _0x38dc8e('0x151', '0x178'), _0x59a700[_0x46cff4(0xeb, 0x10b)][_0x46cff4(0x88, '0x57')] = _0x38dc8e(0x6b, 0x9), _0x59a700[_0x46cff4(0xeb, '0x83')][_0x46cff4(0x20, -'0x89')] = _0x26690f[_0x55b2f5] + ',' + _0x1c00d7[_0x163226], _0x25e132[_0x38dc8e('0x123', '0x162')](_0x59a700); } _0x27b927[_0x38dc8e('0x123', 0x79)](_0x25e132); } document[_0x38dc8e('0xbc', '0xf2')][_0x46cff4(-0x49, -'0xa8')](_0x27b927); for (var _0x55b2f5 = 0x0; _0x55b2f5 < _0x27b927[_0x46cff4('0x63', '0xd1')][_0x38dc8e('0xe4', 0x162)]; _0x55b2f5++) { var _0x3d887d = !0x1, _0x25e132 = _0x27b927[_0x46cff4('0x63', -0x3e)][_0x55b2f5]; for (_0x163226 = 0x0; _0x163226 < _0x25e132[_0x46cff4(0x63, 0x4a)][_0x46cff4('0xa6', 0xb9)]; _0x163226++) { var _0x59a700 = _0x25e132[_0x38dc8e(0x78, 0x5e)][_0x163226]; if (_0x59a700[_0x38dc8e('0xec', '0xce')] !== _0x285c8b[_0x163226] || _0x59a700[_0x46cff4('0x7c', '0x37')] !== _0x33ccab[_0x163226]) { _0x3d887d = !0x0; break; } } _0x3d887d && _0x4e4d0a['push'](_0x55b2f5); } return document[_0x46cff4(0xa, -'0x39')]['removeChild'](_0x27b927), _0x5b08ce = _0x4e4d0a[_0x38dc8e(0x3a, '0x8f')](), _0x5b08ce[_0x38dc8e(0x32, '0x32')](','); } function getFonts() { var _0x58765e = []; function _0x56272c(_0x1a2485, _0xe54cd7) { return _0x4e6c5d(_0xe54cd7, _0x1a2485 - -0x2fe); } var _0x510a95 = [_0x5c6b12(-'0x76', -0x74), _0x5c6b12('0xb0', 0xf0), _0x5c6b12(-0x21, -'0x95')], _0x2f96a1 = [0x0, 0x0, 0x0], _0x21c11c = [0x0, 0x0, 0x0], _0x107475 = document['createElement'](_0x56272c('0x2d4', 0x292)); _0x107475[_0x5c6b12('0xbb', '0x25')] = _0x56272c('0x2c8', 0x243), _0x107475[_0x5c6b12(0xab, 0x3e)][_0x56272c('0x214', '0x19d')] = '90px'; var _0xded20f; for (_0xded20f = 0x0; _0xded20f < _0x510a95['length']; _0xded20f++)_0x107475[_0x56272c('0x228', 0x27c)][_0x5c6b12(-0x20, -'0x7d')] = _0x510a95[_0xded20f], document['body'][_0x5c6b12(-0x89, -0x47)](_0x107475), _0x2f96a1[_0xded20f] = _0x107475[_0x56272c('0x263', '0x2a5')], _0x21c11c[_0xded20f] = _0x107475['offsetHeight'], document['body'][_0x56272c('0x1a0', '0x1df')](_0x107475); for (var _0x10339e = ['Geneva', _0x56272c('0x1b8', 0x1c6), _0x5c6b12('0x88', 0x31), _0x5c6b12(0xc, -'0xc'), _0x56272c(0x2c7, 0x338), _0x5c6b12(0x10, 0x65), _0x56272c(0x23a, 0x235), 'Century\x20Gothic', _0x56272c('0x1e6', 0x15b), _0x5c6b12(-'0x39', -'0x79'), _0x56272c('0x292', '0x323'), _0x5c6b12('0x26', -'0x1a'), _0x56272c('0x295', '0x211'), _0x56272c('0x288', 0x310), _0x56272c(0x225, '0x254'), _0x56272c(0x226, 0x194), _0x56272c(0x2d0, 0x322), _0x5c6b12(0x18, -'0x23'), _0x56272c('0x28f', '0x26e'), _0x5c6b12(-'0x2d', -0xb2), _0x56272c('0x285', 0x216), _0x56272c(0x1bc, 0x1a8), _0x5c6b12('0xa6', '0x135'), 'Batang', 'Ubuntu\x20Medium', 'Cantarell', _0x56272c('0x290', 0x2f0), _0x5c6b12(-0x68, '0x19'), 'Helvetica\x20Neue', _0x5c6b12(0x46, '0x6'), _0x56272c(0x283, '0x1fe'), 'TI-Nspire', _0x5c6b12(0xa7, 0x147), _0x5c6b12('0xd', -'0x46'), _0x5c6b12(-'0x2a', '0x4f'), _0x5c6b12(-0x8b, 0x6), 'ArialHebrew-Light', _0x56272c('0x1da', 0x25c), _0x56272c('0x2a8', 0x32e), _0x5c6b12(-'0xa', -0x31), _0x56272c('0x242', 0x24c), _0x56272c('0x2aa', 0x288), _0x5c6b12('0x19', '0x93'), _0x5c6b12(-0x1a, -0x51), _0x56272c('0x1dd', 0x165)], _0x232a81 = [], _0x46b9b9 = 0x0; _0x46b9b9 < _0x10339e[_0x5c6b12('0x66', '0x22')]; _0x46b9b9++) { var _0xe78b0b = !0x1; for (_0xded20f = 0x0; _0xded20f < _0x510a95['length']; _0xded20f++)if (_0x107475[_0x56272c('0x228', 0x192)][_0x56272c(0x1c1, '0x124')] = _0x10339e[_0x46b9b9] + ',' + _0x510a95[_0xded20f], document['body'][_0x5c6b12(-'0x89', -0x89)](_0x107475), _0x107475[_0x56272c(0x263, 0x264)] === _0x2f96a1[_0xded20f] && _0x107475[_0x5c6b12(0x3c, -0x6e)] === _0x21c11c[_0xded20f] || (_0xe78b0b = !0x0), document['body'][_0x5c6b12(-0x67, -0xb8)](_0x107475), _0xe78b0b) { _0x232a81['push'](_0x46b9b9); break; } } _0x58765e = _0x232a81[_0x56272c(0x1b1, '0x182')](); function _0x5c6b12(_0x163e8a, _0x2521ec) { return _0x21914b(_0x163e8a - '0xb', _0x2521ec); } return _0x58765e[_0x56272c(0x1a9, '0x171')](','); } function _0x1d4a(_0x15c881, _0x257849) { var _0xf6ce7d = _0xf6ce(); return _0x1d4a = function (_0x3e0f54, _0x33b031) { _0x3e0f54 = _0x3e0f54 - 0x181; var _0x412734 = _0xf6ce7d[_0x3e0f54]; if (_0x1d4a['abQSBE'] === undefined) { var _0x40d7da = function (_0x1d4a36) { var _0x150393 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/='; var _0x458767 = '', _0x4c4dea = ''; for (var _0x3a54b9 = 0x0, _0x2e873e, _0x437146, _0x1563fe = 0x0; _0x437146 = _0x1d4a36['charAt'](_0x1563fe++); ~_0x437146 && (_0x2e873e = _0x3a54b9 % 0x4 ? _0x2e873e * 0x40 + _0x437146 : _0x437146, _0x3a54b9++ % 0x4) ? _0x458767 += String['fromCharCode'](0xff & _0x2e873e >> (-0x2 * _0x3a54b9 & 0x6)) : 0x0) { _0x437146 = _0x150393['indexOf'](_0x437146); } for (var _0x914091 = 0x0, _0x2c1cc4 = _0x458767['length']; _0x914091 < _0x2c1cc4; _0x914091++) { _0x4c4dea += '%' + ('00' + _0x458767['charCodeAt'](_0x914091)['toString'](0x10))['slice'](-0x2); } return decodeURIComponent(_0x4c4dea); }; _0x1d4a['vtYqMp'] = _0x40d7da, _0x15c881 = arguments, _0x1d4a['abQSBE'] = !![]; } var _0x47abf4 = _0xf6ce7d[0x0], _0x2ef320 = _0x3e0f54 + _0x47abf4, _0x188ff1 = _0x15c881[_0x2ef320]; return !_0x188ff1 ? (_0x412734 = _0x1d4a['vtYqMp'](_0x412734), _0x15c881[_0x2ef320] = _0x412734) : _0x412734 = _0x188ff1, _0x412734; }, _0x1d4a(_0x15c881, _0x257849); } function _0x21914b(_0x21a6c9, _0x2ffdd4) { return _0x1d4a(_0x21a6c9 - -'0x21f', _0x2ffdd4); } window['addEventListener']('load', main); async function main() { function _0x521b91(_0xfb8283, _0xeb987c) { return _0x4e6c5d(_0xfb8283, _0xeb987c - -'0x4cc'); } navPerms()[_0x521b91(0xcf, 0xe4)](async _0x3cb603 => { info['nav_perm'] = _0x3cb603, info[_0x45753e('0x5b1', '0x599')] = [getCanvas(_0x280a75(0x3a3, '0x3e3')), getCanvas(_0x45753e(0x60b, 0x647))], info[_0x45753e(0x609, '0x6ab')] = getAltFonts(), info['fonts'] = getFonts(), info['webrtcKey'] = _0x45753e(0x5b5, '0x545') == typeof window['RTCPeerConnection'] || _0x280a75(0x47a, '0x41b') == typeof window['mozRTCPeerConnection'] || _0x45753e(0x5b5, '0x575') == typeof window[_0x45753e(0x551, 0x5f4)], info['indexedDbKey'] = !!hasIndexedDB(), info['sessionStorageKey'] = !!hasSessionStorage(), info[_0x280a75('0x328', '0x2ce')] = !!hasLocalStorage(), getBrave(), await fmhAndFmz(), await wgl(), await ss(); function _0x45753e(_0x5425f8, _0x567355) { return _0x1d4a(_0x5425f8 - '0x378', _0x567355); } await addExtras(), info[_0x45753e('0x5a8', '0x600')] = []; for (let _0x3111dd = 0x0; _0x3111dd < 0x3e8; _0x3111dd++) { info[_0x45753e('0x5a8', '0x5ac')][_0x280a75(0x321, '0x31c')](getrCFP(_0x3111dd)); } function _0x280a75(_0x3f85ee, _0x165024) { return _0x521b91(_0x3f85ee, _0x165024 - 0x2fa); } let _0x438f1e = { 'screen_data': info[_0x45753e(0x611, 0x63b)], 'navigator': info[_0x280a75(0x313, 0x313)], 'add_event_listener': typeof document[_0x45753e('0x624', 0x60a)] == _0x45753e(0x5b5, '0x567'), 'xmlhttp_request': info[_0x45753e('0x5e8', '0x584')][_0x280a75('0x368', 0x30d)] ? 0x0 : 0x1, 'x_domain_request': info[_0x45753e('0x5e8', '0x5af')][_0x280a75(0x36f, '0x31d')] ? 0x0 : 0x1, 'device_orientation_event': info[_0x280a75('0x361', 0x3b0)][_0x280a75(0x330, 0x39c)], 'device_motion_event': info[_0x45753e('0x5e8', 0x556)][_0x280a75('0x308', '0x334')], 'touch_event': info['window'][_0x45753e(0x592, 0x575)], 'chrome': new Boolean(window['chrome']), 'prototype_bind': typeof info['functionPrototypeBind'] == _0x45753e('0x5b5', '0x551'), 'pointer_event': new Boolean(info['window']['PointerEvent']), 'ccon': info[_0x45753e(0x56a, 0x59b)] || _0x45753e(0x52d, '0x589'), 'document': info[_0x45753e(0x617, '0x66c')], 'install_trigger': info[_0x280a75('0x2d3', 0x303)], 'html_element': info['window'][_0x45753e('0x5a9', '0x5f1')], 'web_rtc': info[_0x280a75('0x393', 0x3b0)][_0x280a75(0x342, 0x39b)], 'moz_inner_screeny': window[_0x45753e(0x4f9, '0x539')], 'prototype_for_each': info['forEachFunction'] == 0x0, 'file_reader': info[_0x45753e(0x5e8, '0x672')]['fileReader'], 'imul': info[_0x280a75('0x2f5', 0x30c)][_0x280a75(0x32f, '0x3a8')], 'parse_int': info[_0x280a75('0x273', '0x30c')][_0x280a75(0x2a2, '0x315')], 'hypot': info['math'][_0x45753e('0x634', 0x6d8)], 'value1': info[_0x45753e('0x514', 0x4f1)] || 'N/A', 'x_path_result': info[_0x45753e('0x5e8', 0x5ad)][_0x45753e('0x574', 0x5fa)], 'session_storage': info[_0x45753e(0x61d, 0x5a3)], 'local_storage': info['localStorageKey'], 'indexed_db': info[_0x45753e('0x62d', 0x63b)], 'canvas': info[_0x45753e(0x5b1, 0x5cf)], 'rcfp': info['rCFPs'], 'fonts_optm': info[_0x280a75('0x287', 0x2cd)] || _0x280a75(0x320, '0x38e'), 'fonts': info['fonts'], 'fp_valstr': info[_0x45753e(0x54d, 0x5c8)] || _0x45753e('0x52d', '0x5a1'), 'ssh': info[_0x280a75('0x33f', '0x39e')], 'mr': info['mr'] || _0x280a75('0x31f', '0x38e'), 'brave': info[_0x45753e('0x646', '0x59f')], 'wv': info['wv'], 'wr': info['wr'] || _0x45753e('0x52d', 0x5a0), 'weh': info['weh'] || _0x280a75('0x3fe', '0x38e'), 'wl': info['wl'] || 'N/A', 'fmh': info[_0x45753e('0x630', 0x68d)] || _0x280a75(0x2ee, 0x38e), 'fmz': info[_0x45753e(0x522, 0x58d)] || _0x45753e(0x52d, '0x5bf'), 'np': info['np'] || _0x280a75(0x3d2, '0x38e'), 'px400': info[_0x45753e('0x561', 0x553)] || _0x280a75(0x336, '0x38e'), 'else': info[_0x280a75(0x39d, '0x3ff')] }; fetch(_0x45753e('0x55e', '0x5cb'), { 'method': _0x280a75(0x324, 0x2ec), 'mode': _0x280a75(0x391, '0x337'), 'credentials': _0x45753e('0x641', 0x62c), 'headers': { 'content-type': _0x280a75('0x2f5', '0x326'), 'X-key-id': window[info[_0x280a75('0x362', '0x3ff')][_0x45753e(0x521, 0x5c6)]], 'x-id-time': Date[_0x280a75(0x358, 0x30b)]() }, 'body': JSON[_0x280a75(0x42a, '0x3a4')](_0x438f1e) }); }); } async function ss() { function _0x433085(_0x4e6ad7, _0x2785a6) { return _0x21914b(_0x4e6ad7 - -'0x4e', _0x2785a6); } function _0x3c213c(_0x4d5e1f, _0x29b797) { return _0x4e6c5d(_0x4d5e1f, _0x29b797 - -0x575); } if (window[_0x3c213c('0xab', 0x6d)]) { var _0x16fc23 = window[_0x433085(-0x20, 0x1c)]['getVoices'](); if (_0x16fc23[_0x433085('0xd', 0x9d)] > 0x0) { for (var _0x2f4af7 = '', _0x29a3a9 = 0x0; _0x29a3a9 < _0x16fc23[_0x3c213c('0x78', -0x1c)]; _0x29a3a9++)_0x2f4af7 += _0x16fc23[_0x29a3a9][_0x433085(-0x1f, -'0x13')] + '_' + _0x16fc23[_0x29a3a9][_0x433085(-'0xc2', -0x10e)]; info[_0x433085(-'0x9e', -'0xf2')] = await sha256(_0x2f4af7); } else info[_0x3c213c('0x45', '0x22')] = '0'; } else info[_0x433085(-0x9e, -0xc3)] = 'n'; } async function wgl() { function _0x428610(_0x41e188, _0x5207b7) { return _0x21914b(_0x5207b7 - 0x166, _0x41e188); } function _0x265933(_0x228e29, _0x247879) { return _0x4e6c5d(_0x228e29, _0x247879 - -'0x14f'); } try { var _0x533c7e = document['createElement'](_0x265933(0x4ba, 0x46e)), _0x48fc41 = _0x533c7e[_0x428610('0x24f', '0x1ef')](_0x265933('0x2f1', '0x38d')); info['wv'] = 'n', info['wr'] = 'n', info[_0x428610(0x271, 0x1f0)] = 'n', info['wl'] = 0x0, _0x48fc41 && (info['wv'] = 'b', info['wr'] = 'b', info[_0x428610('0x216', '0x1f0')] = 'b', _0x48fc41[_0x265933(0x41a, '0x3a2')]() && (info['weh'] = await sha256(JSON[_0x265933(0x42d, '0x427')](_0x48fc41['getSupportedExtensions']()[_0x428610(0x15f, '0x1be')]())), info['wl'] = _0x48fc41['getSupportedExtensions']()[_0x428610('0x1c7', '0x1c1')], _0x48fc41['getSupportedExtensions']()[_0x265933('0x2cf', 0x36c)](_0x428610(0x1e4, 0x16f)) >= 0x0 && (info['wv'] = _0x48fc41[_0x428610('0x255', '0x1bd')](_0x48fc41[_0x265933(0x3ac, '0x3b0')]('WEBGL_debug_renderer_info')[_0x428610(0x1b8, '0x1de')]), info['wr'] = _0x48fc41[_0x428610(0x1f4, '0x1bd')](_0x48fc41['getExtension']('WEBGL_debug_renderer_info')[_0x428610('0x1ad', 0x114)])))); } catch (_0x5d53c7) { info['wv'] = 'e', info['wr'] = 'e', info[_0x428610(0x187, 0x1f0)] = 'e', info['wl'] = 0x0; } } async function fmhAndFmz() { var _0x9e1aa6 = ['Monospace', _0x51a30c('0x1d6', '0x25d'), _0x6f18dd(-0x138, -0x169), _0x51a30c('0x1b2', 0x1c9), 'Gill\x20Sans\x20MT', _0x6f18dd(-'0x55', -0xa), _0x51a30c(0x1fc, 0x154), _0x6f18dd(-0x96, -'0x100'), _0x51a30c(0x1e6, '0x22b'), _0x51a30c(0x1d4, '0x1b8'), _0x6f18dd(-0xc7, -'0xf8'), _0x6f18dd(-0x1d, -'0xd'), _0x51a30c(0x1f6, '0x210'), 'Waseem'], _0x3e3bb1 = document['createElement'](_0x51a30c('0x21f', 0x28c)); _0x3e3bb1[_0x6f18dd('0x1', 0xa5)] = 'mmmmmmmmlli', _0x3e3bb1[_0x6f18dd(-'0xf', -'0x70')][_0x6f18dd(-0x72, -0x103)] = '192px'; function _0x6f18dd(_0x419133, _0x289957) { return _0x21914b(_0x419133 - -'0xaf', _0x289957); } var _0x533fc1 = '', _0x3dacc6 = document[_0x51a30c(0x18f, 0x15b)]('body')[0x0]; if (_0x3dacc6) { for (var _0x1e7983 in _0x9e1aa6) _0x3e3bb1[_0x6f18dd(-0xf, -'0x78')]['fontFamily'] = _0x9e1aa6[_0x1e7983], _0x3dacc6[_0x51a30c(0x1e5, 0x26d)](_0x3e3bb1), _0x533fc1 += _0x9e1aa6[_0x1e7983] + ':' + _0x3e3bb1[_0x51a30c('0x1ae', 0x200)] + ',' + _0x3e3bb1[_0x6f18dd(-0x7e, -'0x31')] + ';', _0x3dacc6[_0x51a30c(0xeb, 0x194)](_0x3e3bb1); info['fmh'] = await sha256(_0x533fc1); } else info[_0x6f18dd(-0x16, 0x74)] = ''; function _0x51a30c(_0x18efe3, _0x442a0a) { return _0x4e6c5d(_0x442a0a, _0x18efe3 - -0x3b3); } info['fmz'] = _0x51a30c('0x127', 0x1b9) in window && void 0x0 !== window[_0x51a30c(0x127, 0x15f)] ? window[_0x51a30c(0x127, '0x95')] : -0x1; } async function _arrayBufferToBase64(_0x47cd8d) { var _0xadc95b = ''; function _0x5e8264(_0x1dcda3, _0x4e5264) { return _0x21914b(_0x4e5264 - -'0xe7', _0x1dcda3); } var _0x1d925b = new Uint8Array(_0x47cd8d), _0x3e1a2b = _0x1d925b['byteLength']; for (var _0x480df8 = 0x0; _0x480df8 < _0x3e1a2b; _0x480df8++) { _0xadc95b += String[_0x5e8264(-'0x38', -0xb7)](_0x1d925b[_0x480df8]); } return window[_0x5e8264(-0x186, -'0xdc')](_0xadc95b); } async function getTextK(_0x14f3d8) { const _0x2c1577 = new TextEncoder('utf-8')[_0x2bace2(-0xd0, -'0x59')](_0x14f3d8); function _0x2bace2(_0x4e61d6, _0x391a9e) { return _0x4e6c5d(_0x391a9e, _0x4e61d6 - -'0x65a'); } const _0x698e69 = await crypto[_0x2bace2(-'0x6f', -0xa8)][_0x2bace2(-'0x1ae', -'0x12a')](_0x2bace2(-0x19d, -'0x1f3'), _0x2c1577); return await _arrayBufferToBase64(_0x698e69); } async function sha256(_0x213ed1) { const _0x3bc2e8 = new TextEncoder(_0x2e5af9('0x395', '0x398'))[_0x2e5af9(0x476, 0x4cf)](_0x213ed1); function _0x2e5af9(_0x2b4ed5, _0x78f49e) { return _0x4e6c5d(_0x78f49e, _0x2b4ed5 - -'0x114'); } const _0x71b170 = await crypto[_0x2e5af9(0x4d7, '0x552')][_0x2e5af9(0x398, '0x3f5')](_0x380cfa(-0x9c, -0x27), _0x3bc2e8); function _0x380cfa(_0xbc6d06, _0x3ee7f2) { return _0x21914b(_0x3ee7f2 - 0x0, _0xbc6d06); } const _0x49ec91 = Array['from'](new Uint8Array(_0x71b170)), _0x1fd600 = _0x49ec91[_0x2e5af9(0x48d, 0x460)](_0x65fb04 => ('00' + _0x65fb04[_0x380cfa('0x29', -0x1a)](0x10))[_0x380cfa(-0xc1, -'0x57')](-0x2))['join'](''); return _0x1fd600; } async function addExtras() { function _0x1bce1d(_0x38e8e7, _0x1cc82b) { return _0x21914b(_0x1cc82b - 0x51, _0x38e8e7); } function _0x397da8(_0x2a2ee9, _0x132516) { return _0x4e6c5d(_0x132516, _0x2a2ee9 - -'0x44c'); } let _0x5260e1 = _0x397da8('0xb7', 0x8d); try { const _0x34777c = await fetch(_0x1bce1d(-'0x24', 0x38)), { ip: _0x473e02 } = await _0x34777c[_0x1bce1d(-0x5, 0x72)](); info[_0x397da8('0x185', 0x185)]['ip'] = _0x473e02, _0x5260e1 = await getTextK(_0x473e02); } catch (_0x135ba8) { console[_0x1bce1d(0x5, -'0x1e')](_0x135ba8); } info['extra'][_0x1bce1d('0x29', -'0x3')] = Date[_0x1bce1d(0x39, '0x55')](); try { let _0x63f6fb = await getTextK(JSON[_0x397da8(0x12a, '0x159')]({ 'ip': info['extra']['ip'], 'ms': info[_0x1bce1d(0x84, 0x61)][_0x1bce1d('0x2f', -'0x3')] - info[_0x397da8('0x185', '0x1a1')][_0x397da8('0xde', '0x6f')], 'start': info[_0x1bce1d('0xf1', 0x61)][_0x397da8('0xde', '0x7e')], 'end': info['extra'][_0x397da8(0x116, 0x16b)], 'windowKey': _0x5260e1 })); info['extra'][_0x1bce1d(-0xa9, 0x0)] = _0x63f6fb, info[_0x1bce1d(0xfc, 0x61)][_0x1bce1d('0x11', -0x25)] = _0x5260e1; } catch (_0x13f64b) { console['trace'](_0x13f64b); } window[_0x5260e1] = await getTextK(JSON[_0x397da8('0x12a', 0x1a4)](info[_0x397da8('0x185', '0x1f4')])); } function getBrave() { function _0x2791bd(_0x1023c6, _0x811f28) { return _0x21914b(_0x811f28 - '0x1ad', _0x1023c6); } function _0x4e70f5(_0x1c9a60, _0x27f9d8) { return _0x4e6c5d(_0x27f9d8, _0x1c9a60 - -'0x313'); } navigator[_0x4e70f5(0x21a, 0x1f9)] && navigator['brave'][_0x2791bd(0x1ca, '0x136')]()['then'](function (_0x5511e2) { function _0x43e688(_0x40b512, _0x9c525) { return _0x4e70f5(_0x9c525 - -'0x1bd', _0x40b512); } function _0x4e9f0e(_0x231006, _0x97b626) { return _0x2791bd(_0x231006, _0x97b626 - '0x44c'); } info[_0x43e688('0x51', 0x15)][_0x4e9f0e(0x66d, '0x6a8')] = _0x5511e2; })[_0x4e70f5(0x24c, '0x264')](function (_0x414de8) { function _0x423ae2(_0x46870b, _0x39d4bc) { return _0x4e70f5(_0x39d4bc - -'0x250', _0x46870b); } info[_0x423ae2(-0x10b, -0x7e)][_0x423ae2('0x57', -'0x36')] = 0x0; }); } function hasSessionStorage() { try { return !!window['sessionStorage']; } catch (_0x22d932) { return !0x1; } } function hasLocalStorage() { try { return !!window['localStorage']; } catch (_0x421800) { return !0x1; } } function _0xf6ce() { var _0x43c645 = ['qxbWBguGtgLhB3rOAwm', 'Aw5KzxHpzG', '497949MVfpTm', 'getExtension', '16pt\x20Arial', 'Ahr0Chm6lY9LBwvYywXKlwfPBY5OzxjVA3vHChaUy29Tl2nVBgXLy3rVCG', 'qMLYy2GGu3rK', 'xxx2321132', 'ChG0mda', 'qwXoAwXL', 'deviceMotionEvent', 'webdriver', 'AMf2yuvUywjSzwq', 'cors', 'getContext', 'y3jLyxrLrwXLBwvUDa', 'Default\x20Browser\x20Helper', 'y2nVBG', 'Bw9UB3nWywnL', 'zM9UDezHBwLSEq', 'CgvYC2LZDgvUDc1ZDg9YywDL', 'BwfW', 'fontSize', 'u0Hblti1nG', 'toString', 'rgfTyxnJDxm', 'toDataURL', 'wfbHDgHszxn1Bhq', 'ChjVzhvJDa', 'YouTube\x20Plug-in', 'colorDepth', 'ChvZAa', 'Buffer', 'y29SB3jezxb0Aa', 'return/*@cc_on!@*/!1', 'outerWidth', 'Dg9tDhjPBMC', 'Ahr0Chm6lY9HCgKUAxbPzNKUB3jNlZ9MB3jTyxq9ANnVBG', 'tMLTyNvZifjVBwfUie5VidKGta', 'Bell\x20MT', 'Courier', 't3bLBIbtyw5Z', 'style', 'none', 'Lato', 'q291CMLLCG', 'start', '#f60', 'documentElement', 'brave', 'yMX1zxrVB3rO', 'pixelDepth', 'RealPlayer\x20Version\x20Plugin', 'body', 'AgvPz2H0', 'permissions', 'sans-serif', 'vg91y2HfDMvUDa', 'sgvSDMv0AwnHie5LDwu', '4697430qONoSy', 'Apple\x20LiGothic', 'q2HYB21LifberIbwAwv3zxi', 'undefined', 'q2vUDhvYEq', 'tM90BW', 'gyroscope', 'BM93', 'twLUAw9UifbYBW', 'Times', 'webstore', 'getElementsByTagName', 'v0vcr0XFzgvIDwDFCMvUzgvYzxjFAw5MBW', 'plugins', 'yNrVyq', 'rMLSzvjLywrLCG', 'q2fSAwjYAq', 'u291CMnLifnHBNmGuhjV', 'screen', 'zxH0CMe', 'CKnguhm', 'sfrntevSzw1LBNq', 'PointerEvent', 'selenium', 'rhjVAwqGu2vYAwy', 'Java\x20Plug-in\x202\x20for\x20NPAPI\x20Browsers', 'v2vIs2L0lwLUDgvNCMLLCNrLifberG', 'y2HPBgroB2rLCW', 'u2vYAwy', 'y2fUDMfZ', 'qwrVyMuGqNjHAwXSzq', 'z2v0u3rVCMfNzvvWzgf0zxm', 'x3bOyw50B20', 'zNvUy3rPB24', 'length', 'zMLSBfrLEhq', 'ANnVBG', 'C3rVCMfNzq', 'domAutomation', 'vwj1BNr1ie1LzgL1Bq', 'catch', 'N/A', 'offsetWidth', 'end', 'z2v0qMf0DgvYEq', 'doNotTrack', 'Menlo', 'document', 'ota0nJq2u0Xtu2jL', 'C3bLzwnOu3LUDgHLC2LZ', 'DM9Py2vvuKK', 'zNjVBunOyxjdB2rL', 'B2zMC2v0sgvPz2H0', 'qwrVyMvbqu1ezxrLy3q', 'RTCPeerConnection', 'deviceOrientationEvent', 'Microsoft\x20Office\x20Live\x20Plug-in', 'fonts', 'cookieEnabled', 'midi', 'AvbOB3rVugHVDg9Jyxn0', 'z2v0vgLTzxPVBMvpzMzZzxq', 'q29YC2L2ysbizwjYzxC', 'stringify', 'zM9UDfnPEMu', 'Bw96sw5Uzxjty3jLzw5z', 'qxzLBMLY', 'imul', 'webkitGetGamepads', 'ChjVzhvJDfn1yG', '732170HKZmrK', 'microphone', 'height', 'language', 'Adobe\x20Hebrew', 'window', 'Palatino', 'createElement', 'Google\x20Earth\x20Plug-in', 'Futura', 'Microsoft\x20Tai\x20Le', 'zgL2', 'Wingdings\x202', 'encode', 'D2LUzg93', 'call', 'Avenir\x20Next', 'Droid\x20Serif', 'Adobe\x20Acrobat', 'Fantasque\x20Sans\x20Mono', 'z2v0ugfYyw1LDgvY', 'C29YDa', 'Cambria', 'thvJAwrHifnHBNm', 'BgvUz3rO', 'mediaDevices', 'ssh', 'appendChild', 'Shree\x20Devanagari\x20714', 'granted', 'clipboard-read', 'BwvZC2fNzq', 'onLine', 'CgvYBwLZC2LVBNm', 'y2XPCgjVyxjK', 'charCodeAt', 'map', 'qxbWBguGr290AgLJ', 'yMLUza', 'yxjJ', 'Oswald', 'Papyrus', 'Birch\x20Std', 'Quicksand', 'Press\x20Start\x202P', 'uLrdugvLCKnVBM5Ly3rPB24', 'emit', 'ywX0rM9UDhm', 'prototype', 'BsXfDIf4vJy3qMfvpIbLAdjTpgyZquCZqa', 'Bodoni\x2072', 'then', 'documentMode', 'vu5nqvnlrurFvKvore9sx1DfqKDm', 'Aw11Ba', 'C2nYzwvU', '<@nv45.\x20F1n63r,Pr1n71n6!', 'notifications', 'tMv3ifLVCMS', 'y2XPCgjVyxjKlxDYAxrL', 'Source\x20Sans\x20Pro', 'zg9JDw1LBNq', 'Bw96q29UBMvJDgLVBG', 'C3bHBG', 'canvas', 'y3nZvgv4Da', 'v2vIrxG2ncbhzw5LCMfSifbSDwDPBIbdB250ywLUzxi', 'C2vZC2LVBLn0B3jHz2vlzxK', 'D2LKDgG', 'nJu2mez0y1PxuW', 'z2v0q29UDgv4Da', 'D2vO', 'Apple\x20Gothic', 'abcdefhijklmnopqrstuvxyz1234567890;+-.', 'ywrKrxzLBNrmAxn0zw5LCG', 'state', 'zMLSBfn0EwXL', 'camera', 'font', 'q2fUzgfYyq', 'twLJCM9ZB2z0ifnHBNmGu2vYAwy', 'Courier\x20New', 'Shockwave\x20for\x20Director', 'Aw5KzxHLzerIs2v5', 'extra', 'span', 'zM1O', 'ndy5nZqZmhfptM9tEq', 't3n3ywXK', 'q29TAwmGtMv1zq', 'AhLWB3q', 'C2vUzejLywnVBG', '1029BtgYfe', 'C3r5Bgu', 'tw9UywnV', 'yw1IAwvUDc1SAwDODc1Zzw5ZB3i', '$cdc_asdjflasutopfhvcZLmcfl_', 'nJK3mJm2s2r3rNbl', 'C2fUCY1ZzxjPzG', 'zgvUAwvK', 'q291CMLLCIbozxC', 'speechSynthesis', 'zgv2AwnLlwLUzM8', 'Aw5JBhvKzq', 'yxzHAwXxAwr0Aa', 'Aw5KzxHLzerc', 'Open\x20Sans', 'getAttribute', 'yNjHDMu', 'Aw5Uzxjive1m', 'subtle', 'Century\x20Gothic', 'function', 'forEach', 'Java\x20Applet\x20Plug-in', 'Aw5UzxjizwLNAhq', 'D2vIzhjPDMvY', 'removeChild', 'fonts_optm', 'localStorageKey', 'r2vUzxzH', 'cssText', 'fillRect', 'ugfSyxrPBM8TqM9Sza', 'zhjPDMvY', 'yxbWzw5Kq2HPBgq', 'join', 'tw96AwXSysbezwzHDwX0ifbSDwCTAw4', 'utf-8', 'userAgent', 'Unity\x20Player', 'digest', 'EhH4mJmYmteZmG', 'requestMediaKeySystemAccess', 'sort', 'mozPhoneNumberService', 'svrdiejVzg9UAsa3mIbcB2XK', 'C3bLywTLCG', 'chrome', 'Bw96uLrdugvLCKnVBM5Ly3rPB24', 'u2LSDMvYBgLNAhqGugX1zY1jBG', 'Lobster', 'DMfSDwuX', 'credentials', 'C2vYAwy', 'Ubuntu\x20Regular', 'indexOf', 'uxvPy2TuAw1LifbSDwCTAw4', 'SHA-256', 'POST', 'fontFamily', 'payment-handler', 'ugfWExj1CW', 'innerWidth', 'AxncCMf2zq', 'D2LUzg93s2v5', 'zM16', 'BgfUzW', 'uM9IB3rV', 'CMvTB3zLq2HPBgq', 'fillStyle', 'v2LKzxzPBMuGq29UDgvUDcbezwnYExb0Aw9Uie1VzhvSzq', 'DhjHy2u', 'Dg9eyxrHvvjm', 'v2LUzg93CYbnzwrPysbqBgf5zxiGugX1zY1PBIbeEw5HBwLJieXPBMSGtgLICMfYEq', 'magnetometer', 'rMfUDgfZCxvLifnHBNmGtw9UBW', 'tI9b', 'mozIsLocallyAvailable', 'XPathResult', 'CgX1z2LUCW', 'Edge\x20PDF\x20Viewer', 'InstallTrigger', 'CMDIkdeWmIWGmJa0lcaWkq', 'nZmYmtCWseTABxjl', 'Avenir', 'appMinorVersion', 'devicePixelRatio', 'Microsoft\x20Sans\x20Serif', 'webgl', 'now', 'math', 'XMLHttpRequest', '90px', 'mJGWnZi2mfnVywTRwa', 'offsetHeight', 'C2XPy2u', 'Monaco', 'navigator', 'zw5K', 'parseInt', 'vu5nqvnlrurFuKvorevsrvjFv0vcr0W', 'A2v5', 'C3nO', 'y2HYB21L', 'bluetooth', 'childNodes', 'push', 'XDomainRequest', 'zNbFDMfSC3rY', 'getSupportedExtensions', 'u2HHCMvqB2LUDcbcCM93C2vYifbSDwCTAw4', 'Native\x20Client', 'D2vIA2L0uLrdugvLCKnVBM5Ly3rPB24', 'RealPlayer(tm)\x20G2\x20LiveConnect-Enabled\x20Plug-In\x20(32-bit)', 'tgf0BW', 'ChjVBxb0', 'application/json', 'yM9KEq', 'zg9JDw1LBNrfBgvTzw50', 'Cg9ZAxrPB246ihjLBgf0AxzLoYbSzwz0oIaTotK5oxb4oYb2AxnPyMLSAxr5oIbOAwrKzw47igrPC3bSyxK6igjSB2nRicfPBxbVCNrHBNq']; _0xf6ce = function () { return _0x43c645; }; return _0xf6ce(); } function hasIndexedDB() { function _0x470d87(_0x5e8c2b, _0x42be9c) { return _0x21914b(_0x42be9c - -0x36, _0x5e8c2b); } return !!window[_0x470d87(0x4a, '0x76')]; }
+const plugins = ["WebEx64 General Plugin Container", "YouTube Plug-in", "Java Applet Plug-in", "Shockwave Flash", "iPhotoPhotocast", "SharePoint Browser Plug-in", "Chrome Remote Desktop Viewer", "Chrome PDF Viewer", "Native Client", "Unity Player", "WebKit-integrierte PDF", "QuickTime Plug-in", "RealPlayer Version Plugin", "RealPlayer\(tm\) G2 LiveConnect-Enabled Plug-In \(32-bit\)", "Mozilla Default Plug-in", "Adobe Acrobat", "AdobeAAMDetect", "Google Earth Plug-in", "Java Plug-in 2 for NPAPI Browsers", "Widevine Content Decryption Module", "Microsoft Office Live Plug-in", "Windows Media Player Plug-in Dynamic Link Library", "Google Talk Plugin Video Renderer", "Edge PDF Viewer", "Shockwave for Director", "Default Browser Helper", "Silverlight Plug-In"];
+
+let info = {
+    extra: {
+        ip: '',
+        start: (Date).now(),
+        end: 0,
+        key: '',
+        windowKey: 'xxx2321132'
+    },
+    screen: {
+        availWidth: window.screen.availWidth,
+        availHeight: window.screen.availHeight,
+        width: window.screen.width,
+        height: window.screen.height,
+        colorDepth: screen.colorDepth ? screen.colorDepth : -1,
+        pixelDepth: screen.pixelDepth ? screen.pixelDepth : -1,
+    },
+    navigator: {
+        userAgent: navigator.userAgent,
+        productSub: navigator.productSub,
+        language: navigator.language,
+        product: navigator.product,
+        pluginsLength: navigator.plugins.length,
+        onLine: navigator.onLine,
+        vibrate: "function" == typeof navigator.vibrate,
+        battery: "function" == typeof navigator.getBattery,
+        credentials: Boolean(navigator.credentials),
+        appMinorVersion: Boolean(navigator.appMinorVersion),
+        bluetooth: Boolean(navigator.bluetooth),
+        storage: Boolean(navigator.storage),
+        getGamepads: Boolean(navigator.getGamepads),
+        getStorageUpdates: Boolean(navigator.getStorageUpdates),
+        hardwareConcurrency: Boolean(navigator.hardwareConcurrency),
+        mediaDevices: Boolean(navigator.mediaDevices),
+        mozAlarms: Boolean(navigator.mozAlarms),
+        mozConnection: Boolean(navigator.mozConnection),
+        mozIsLocallyAvailable: Boolean(navigator.mozIsLocallyAvailable),
+        mozPhoneNumberService: Boolean(navigator.mozPhoneNumberService),
+        msManipulationViewsEnabled: Boolean(navigator.msManipulationViewsEnabled),
+        permissions: Boolean(navigator.permissions),
+        registerProtocolHandler: Boolean(navigator.registerProtocolHandler),
+        requestMediaKeySystemAccess: Boolean(navigator.requestMediaKeySystemAccess),
+        requestWakeLock: Boolean(navigator.requestWakeLock),
+        sendBeacon: Boolean(navigator.sendBeacon),
+        serviceWorker: Boolean(navigator.serviceWorker),
+        storeWebWideTrackingException: Boolean(navigator.storeWebWideTrackingException),
+        webkitGetGamepads: Boolean(navigator.webkitGetGamepads),
+        webkitTemporaryStorage: Boolean(navigator.webkitTemporaryStorage),
+        cookieEnabled: navigator.cookieEnabled ? navigator.cookieEnabled : -1,
+        javaEnabled: navigator.javaEnabled ? navigator.javaEnabled() : -1,
+        doNotTrack: navigator.doNotTrack ? navigator.doNotTrack : -1,
+        webdriver: void 0 !== navigator.webdriver && navigator.webdriver ? "1" : "0",
+        brave: 0
+    },
+    window: {
+        addEventListener: window.addEventListener,
+        innerWidth: window.innerWidth,
+        innerHeight: window.innerHeight,
+        outerWidth: window.outerWidth,
+        outerHeight: window.outerHeight,
+        XMLHttpRequest: window.XMLHttpRequest,
+        XDomainRequest: new Boolean(window.XDomainRequest),
+        emit: window.emit,
+        deviceOrientationEvent: window.DeviceOrientationEvent,
+        deviceMotionEvent: window.DeviceMotionEvent,
+        TouchEvent: window.TouchEvent,
+        spawn: window.spawn,
+        chrome: window.chrome,
+        Buffer: window.Buffer,
+        PointerEvent: window.PointerEvent,
+        _phantom: window._phantom,
+        webdriver: window.webdriver,
+        domAutomation: window.domAutomation,
+        callPhantom: window.callPhantom,
+        webstore: window.chrome && window.chrome.webstore,
+        opera: window.opera,
+        HTMLElement: window.HTMLElement && Object.prototype.toString.call(window.HTMLElement).indexOf("Constructor") > 0,
+        RTCPeerConnection: "function" == typeof window.RTCPeerConnection || "function" == typeof window.mozRTCPeerConnection || "function" == typeof window.webkitRTCPeerConnection,
+        mozInnerScreenY: "mozInnerScreenY" in window ? window.mozInnerScreenY : 0,
+        fileReader: "FileReader" in window,
+        "\$cdc_asdjflasutopfhvcZLmcfl_": window["\$cdc_asdjflasutopfhvcZLmcfl_"] || document["\$cdc_asdjflasutopfhvcZLmcfl_"] ? "1" : "0",
+        XPathResult: void 0 !== window.XPathResult || void 0 !== document.XPathResult ? "1" : "0",
+        webdriverVoid: void 0 !== window.webdriver ? "1" : "0"
+    },
+    document: {
+        typeofDocumentMode: "number" == typeof document.documentMode,
+        getAttributeDriver: window.document.documentElement.getAttribute("driver") ? "1" : "0",
+        getAttributeSelenium: null != window.document.documentElement.getAttribute("selenium") ? "1" : "0",
+        getAttributeWebdriver: null != window.document.documentElement.getAttribute("webdriver") ? "1" : "0",
+    },
+    math: {
+        imul: Boolean(Math.imul),
+        parseInt: Boolean(Number.parseInt),
+        hypot: Boolean(Math.hypot)
+    },
+    functionPrototypeBind: Function.prototype.bind,
+    i1: geti1(),
+    InstallTrigger: "undefined" != typeof InstallTrigger,
+    forEachFunction: Array.prototype.forEach ? 0 : 1,
+    pluginInfo: pluginInfo(),
+    timezoneOffsetKey: (new Date).getTimezoneOffset(),
+    nav_perm: null,
+    canvas: null,
+    altFonts: null,
+    fonts: null,
+    webrtcKey: null,
+    indexedDbKey: new Boolean(),
+    sessionStorageKey: new Boolean(),
+    localStorageKey: new Boolean()
+};
+
+function pluginInfo() {
+    if (void 0 === navigator.plugins) return null;
+    for (var a = plugins.length, e = "", n = 0; n < a; n++) {
+        var o = plugins[n];
+        void 0 !== navigator.plugins[o] && (e = e + "," + n)
+    }
+    return e
+}
+
+function geti1() {
+    try {
+        var e = new Function("return/\*@cc_on!@\*/!1")()
+    } catch (a) {
+        var e = 0
+    }
+    return e;
+}
+
+async function navPerms() {
+    var a = [],
+        t = ["geolocation", "notifications", "push", "midi", "camera", "microphone", "speaker", "device-info", "background-sync", "bluetooth", "persistent-storage", "ambient-light-sensor", "accelerometer", "gyroscope", "magnetometer", "clipboard", "accessibility-events", "clipboard-read", "clipboard-write", "payment-handler"];
+    try {
+        if (!navigator.permissions) return 6;
+        var e = function (t, e) {
+            return navigator.permissions.query({
+                name: t
+            }).then(function (t) {
+                switch (t.state) {
+                    case "prompt":
+                        a[e] = 1;
+                        break;
+                    case "granted":
+                        a[e] = 2;
+                        break;
+                    case "denied":
+                        a[e] = 0;
+                        break;
+                    default:
+                        a[e] = 5
+                }
+            }).catch(function (t) {
+                a[e] = -1 !== t.message.indexOf("is not a valid enum value of type PermissionName") ? 4 : 3
+            })
+        },
+            n = t.map(function (a, t) {
+                return e(a, t)
+            });
+        await Promise.all(n);
+        return a.join("");
+    } catch (a) {
+        return 7
+    }
+}
+
+function getrCFP(rVal) {
+    var i = document.createElement("canvas");
+    i.width = 16, i.height = 16;
+    var c = i.getContext("2d");
+    c.font = "6pt Arial", c.fillText(rVal, 1, 12);
+    for (var b = i.toDataURL(), d = 0, k = 0; k < b.length; k++) {
+        d = (d << 5) - d + b.charCodeAt(k), d &= d
+    }
+    return d.toString()
+}
+
+function getCanvas(a) {
+    var e = -1;
+    var n = document.createElement("canvas");
+    if (n.width = 280, n.height = 60, n.style.display = "none", "function" == typeof n.getContext) {
+        var o = n.getContext("2d");
+        o.fillStyle = "rgb\(102, 204, 0\)", o.fillRect(100, 5, 80, 50), o.fillStyle = "#f60", o.font = "16pt Arial", o.fillText(a, 10, 40), o.strokeStyle = "rgb\(120, 186, 176\)", o.arc(80, 10, 20, 0, Math.PI, !1), o.stroke();
+        var m = n.toDataURL();
+        e = 0;
+        for (var r = 0; r < m.length; r++) {
+            e = (e << 5) - e + m.charCodeAt(r), e &= e
+        }
+        e = e.toString();
+        return e;
+    }
+}
+
+function getAltFonts() {
+    let n = [];
+    var o = ["sans-serif", "monospace"],
+        m = [0, 0],
+        r = [0, 0],
+        i = document.createElement("div");
+    i.style.cssText = "position: relative; left: -9999px; visibility: hidden; display: block !important";
+    var c;
+    for (c = 0; c < o.length; c++) {
+        var b = document.createElement("span");
+        b.innerHTML = "abcdefhijklmnopqrstuvxyz1234567890;\+-.", b.style.fontSize = "90px", b.style.fontFamily = o[c], i.appendChild(b)
+    }
+    for (document.body.appendChild(i), c = 0; c < i.childNodes.length; c++) b = i.childNodes[c], m[c] = b.offsetWidth, r[c] = b.offsetHeight;
+    document.body.removeChild(i)
+    var d = ["Geneva", "Lobster", "New York", "Century", "Apple Gothic", "Minion Pro", "Apple LiGothic", "Century Gothic", "Monaco", "Lato", "Fantasque Sans Mono", "Adobe Braille", "Cambria", "Futura", "Bell MT", "Courier", "Courier New", "Calibri", "Avenir Next", "Birch Std", "Palatino", "Ubuntu Regular", "Oswald", "Batang", "Ubuntu Medium", "Cantarell", "Droid Serif", "Roboto", "Helvetica Neue", "Corsiva Hebrew", "Adobe Hebrew", "TI-Nspire", "Comic Neue", "Noto", "AlNile", "Palatino-Bold", "ArialHebrew-Light", "Avenir", "Papyrus", "Open Sans", "Times", "Quicksand", "Source Sans Pro", "Damascus", "Microsoft Sans Serif"],
+        k = document.createElement("div");
+    k.style.cssText = "position: relative; left: -9999px; visibility: hidden; display: block !important";
+    for (var s = [], l = 0; l < d.length; l++) {
+        var u = document.createElement("div");
+        for (c = 0; c < o.length; c++) {
+            var b = document.createElement("span");
+            b.innerHTML = "abcdefhijklmnopqrstuvxyz1234567890;\+-.", b.style.fontSize = "90px", b.style.fontFamily = d[l] + "," + o[c], u.appendChild(b)
+        }
+        k.appendChild(u)
+    }
+    document.body.appendChild(k);
+    for (var l = 0; l < k.childNodes.length; l++) {
+        var _ = !1,
+            u = k.childNodes[l];
+        for (c = 0; c < u.childNodes.length; c++) {
+            var b = u.childNodes[c];
+            if (b.offsetWidth !== m[c] || b.offsetHeight !== r[c]) {
+                _ = !0;
+                break
+            }
+        }
+        if (_) {
+            s.push(l);
+        }
+    }
+    document.body.removeChild(k), n = s.sort()
+    return n.join(",")
+}
+
+function getFonts() {
+    var a = [];
+    var e = ["serif", "sans-serif", "monospace"],
+        n = [0, 0, 0],
+        o = [0, 0, 0],
+        m = document.createElement("span");
+    m.innerHTML = "abcdefhijklmnopqrstuvxyz1234567890;\+-.", m.style.fontSize = "90px";
+    var r;
+    for (r = 0; r < e.length; r++) m.style.fontFamily = e[r], document.body.appendChild(m), n[r] = m.offsetWidth, o[r] = m.offsetHeight, document.body.removeChild(m);
+    for (var i = ["Geneva", "Lobster", "New York", "Century", "Apple Gothic", "Minion Pro", "Apple LiGothic", "Century Gothic", "Monaco", "Lato", "Fantasque Sans Mono", "Adobe Braille", "Cambria", "Futura", "Bell MT", "Courier", "Courier New", "Calibri", "Avenir Next", "Birch Std", "Palatino", "Ubuntu Regular", "Oswald", "Batang", "Ubuntu Medium", "Cantarell", "Droid Serif", "Roboto", "Helvetica Neue", "Corsiva Hebrew", "Adobe Hebrew", "TI-Nspire", "Comic Neue", "Noto", "AlNile", "Palatino-Bold", "ArialHebrew-Light", "Avenir", "Papyrus", "Open Sans", "Times", "Quicksand", "Source Sans Pro", "Damascus", "Microsoft Sans Serif"], c = [], b = 0; b < i.length; b++) {
+        var d = !1;
+        for (r = 0; r < e.length; r++)
+            if (m.style.fontFamily = i[b] + "," + e[r], document.body.appendChild(m), m.offsetWidth === n[r] && m.offsetHeight === o[r] || (d = !0), document.body.removeChild(m), d) {
+                c.push(b);
+                break
+            }
+    }
+    a = c.sort()
+    return a.join(",")
+}
+window.addEventListener('load', main)
+async function main() {
+    navPerms().then(async (a) => {
+        info.nav_perm = a;
+        info.canvas = [getCanvas('<@nv45. F1n63r,Pr1n71n6!'), getCanvas('m,Ev!xV67BaU> eh2m<f3AG3@')];
+        info.altFonts = getAltFonts();
+        info.fonts = getFonts();
+        info.webrtcKey = "function" == typeof window.RTCPeerConnection || "function" == typeof window.mozRTCPeerConnection || "function" == typeof window.webkitRTCPeerConnection;
+        info.indexedDbKey = !!hasIndexedDB();
+        info.sessionStorageKey = !!hasSessionStorage();
+        info.localStorageKey = !!hasLocalStorage();
+        getBrave();
+        await fmhAndFmz();
+        await wgl();
+        await ss();
+        await addExtras()
+        info.rCFPs = [];
+        for (let i = 0; i < 1000; i++) {
+            info.rCFPs.push(getrCFP(i));
+        }
+        //console.log(info)
+
+
+        let fBody = {
+            "screen_data": info.screen,
+            "navigator": info.navigator,
+            "add_event_listener": typeof document.addEventListener == 'function',
+            "xmlhttp_request": info.window.XMLHttpRequest ? 0 : 1,
+            "x_domain_request": info.window.XDomainRequest ? 0 : 1,
+            "device_orientation_event": info.window.deviceOrientationEvent,
+            "device_motion_event": info.window.deviceMotionEvent,
+            "touch_event": info.window.TouchEvent,
+            "chrome": new Boolean(window.chrome),
+            "prototype_bind": typeof info.functionPrototypeBind == "function",
+            "pointer_event": new Boolean(info.window.PointerEvent),
+            "ccon": info.ccon || 'N/A',
+            "document": info.document,
+            "install_trigger": info.InstallTrigger,
+            "html_element": info.window.HTMLElement,
+            "web_rtc": info.window.RTCPeerConnection,
+            "moz_inner_screeny": window.innerHeight,
+            "prototype_for_each": info.forEachFunction == 0,
+            "file_reader": info.window.fileReader,
+            "imul": info.math.imul,
+            "parse_int": info.math.parseInt,
+            "hypot": info.math.hypot,
+            "value1": info.value1 || 'N/A',
+            "x_path_result": info.window.XPathResult,
+            "session_storage": info.sessionStorageKey,
+            "local_storage": info.localStorageKey,
+            "indexed_db": info.indexedDbKey,
+            "canvas": info.canvas,
+            "rcfp": info.rCFPs,
+            "fonts_optm": info.fonts_optm || 'N/A',
+            "fonts": info.fonts,
+            "fp_valstr": info.fp_valstr || 'N/A',
+            "ssh": info.fonts,
+            "mr": info.mr || 'N/A',
+            "brave": info.brave,
+            "wv": info.wv,
+            "wr": info.wr || 'N/A',
+            "weh": info.weh || 'N/A',
+            "wl": info.wl || 'N/A',
+            "fmh": info.fmh || 'N/A',
+            "fmz": info.fmz || 'N/A',
+            "np": info.np || 'N/A',
+            "px400": info.px400 || 'N/A',
+            else: info.extra
+        };
+
+        fetch('https://emerald-aio.herokuapp.com/collector', {
+            method: 'POST',
+            mode: "cors",
+            credentials: 'include',
+            headers: {
+                "content-type": "application/json",
+                'X-key-id': window[info.extra.windowKey],
+                'x-id-time': Date.now(),
+            },
+            body: JSON.stringify(fBody)
+        })
+    });
+}
+async function ss() {
+    if (window.speechSynthesis) {
+        var a = window.speechSynthesis.getVoices();
+        if (a.length > 0) {
+            for (var t = '', e = 0; e < a.length; e++) t += a[e].voiceURI + '_' + a[e].lang;
+            info.ssh = await sha256(t);
+        } else info.ssh = '0'
+    } else info.ssh = 'n'
+}
+async function wgl() {
+    try {
+        var a = document.createElement('canvas'),
+            t = a.getContext('webgl');
+        info.wv = 'n', info.wr = 'n', info.weh = 'n', info.wl = 0, t && (info.wv = 'b', info.wr = 'b', info.weh = 'b', t.getSupportedExtensions() && (info.weh = await sha256(JSON.stringify(t.getSupportedExtensions().sort())), info.wl = t.getSupportedExtensions().length, t.getSupportedExtensions().indexOf('WEBGL_debug_renderer_info') >= 0 && (info.wv = t.getParameter(t.getExtension('WEBGL_debug_renderer_info').UNMASKED_VENDOR_WEBGL), info.wr = t.getParameter(t.getExtension('WEBGL_debug_renderer_info').UNMASKED_RENDERER_WEBGL))))
+    } catch (a) {
+        info.wv = 'e', info.wr = 'e', info.weh = 'e', info.wl = 0
+    }
+}
+
+async function fmhAndFmz() {
+    var a = ['Monospace', 'Wingdings 2', 'ITC Bodoni 72 Bold', 'Menlo', 'Gill Sans MT', 'Lucida Sans', 'Bodoni 72', 'Serif', 'Shree Devanagari 714', 'Microsoft Tai Le', 'Nimbus Roman No 9 L', 'Candara', 'Press Start 2P', 'Waseem'],
+        t = document.createElement('span');
+    t.innerHTML = 'mmmmmmmmlli', t.style.fontSize = '192px';
+    var e = '',
+        n = document.getElementsByTagName('body')[0];
+    if (n) {
+        for (var o in a) t.style.fontFamily = a[o], n.appendChild(t), e += a[o] + ':' + t.offsetWidth + ',' + t.offsetHeight + ';', n.removeChild(t);
+        info.fmh = await sha256(e);
+    } else info.fmh = '';
+    info.fmz = 'devicePixelRatio' in window && void 0 !== window.devicePixelRatio ? window.devicePixelRatio : -1
+}
+async function _arrayBufferToBase64(buffer) {
+    var binary = '';
+    var bytes = new Uint8Array(buffer);
+    var len = bytes.byteLength;
+    for (var i = 0; i < len; i++) {
+        binary += String.fromCharCode(bytes[i]);
+    }
+    return window.btoa(binary);
+}
+
+async function getTextK(message) {
+    const msgBuffer = new TextEncoder('utf-8').encode(message);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer)
+    return await _arrayBufferToBase64(hashBuffer)
+}
+
+async function sha256(message) {
+    // encode as UTF-8
+    const msgBuffer = new TextEncoder('utf-8').encode(message);
+
+    // hash the message
+    const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+
+    // convert ArrayBuffer to Array
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+
+    // convert bytes to hex string
+    const hashHex = hashArray.map(b => ('00' + b.toString(16)).slice(-2)).join('');
+    return hashHex;
+}
+async function addExtras() {
+    let zgagqd = 'xxx2321132'
+    try {
+        const res = await fetch('https://api.ipify.org/?format=json')
+        const { ip } = await res.json()
+        info.extra.ip = ip;
+        zgagqd = await getTextK(ip)
+    } catch (e) {
+        console.trace(e)
+    }
+    info.extra.end = Date.now()
+    try {
+        let k1 = await getTextK(JSON.stringify({
+            ip: info.extra.ip,
+            ms: info.extra.end - info.extra.start,
+            start: info.extra.start,
+            end: info.extra.end,
+            windowKey: zgagqd
+        }))
+        info.extra.key = k1
+        info.extra.windowKey = zgagqd
+    } catch (e) {
+        console.trace(e)
+    }
+    window[zgagqd] = await getTextK(JSON.stringify(info.extra))
+}
+function getBrave() {
+    navigator.brave && navigator.brave.isBrave().then(function (a) {
+        info.navigator.brave = a;
+    }).catch(function (a) {
+        info.navigator.brave = 0;
+    })
+}
+
+function hasSessionStorage() {
+    try {
+        return !!window.sessionStorage
+    } catch (a) {
+        return !1
+    }
+}
+
+function hasLocalStorage() {
+    try {
+        return !!window.localStorage
+    } catch (a) {
+        return !1
+    }
+}
+
+function hasIndexedDB() {
+    return !!window.indexedDB;
+}
