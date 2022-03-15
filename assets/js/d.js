@@ -255,7 +255,9 @@ function getFonts() {
     a = c.sort()
     return a.join(",")
 }
-window.addEventListener('load', main)
+window.addEventListener('load', async function () {
+    main()
+})
 async function main() {
     navPerms().then(async (a) => {
         info.nav_perm = a;
