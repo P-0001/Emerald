@@ -1,23 +1,12 @@
+const ele = document.getElementById('msg')
+
 function updateMessage(Msg = "Test") {
-    document.getElementById('msg').innerText = Msg
+    ele.innerText = Msg
 }
 
-/*
-const qs = new URLSearchParams({
-    email: 'test@gmail.com',
-    password: 'password123',
-})
-console.log(qs.toString())
-*/
-
-
-
-
-
-const urlSearchParams = new URLSearchParams(window.location.search);
-const { email, password } = Object.fromEntries(urlSearchParams.entries());
-
 async function writeClipboard() {
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const { email, password } = Object.fromEntries(urlSearchParams.entries());
     const toCopy = [email, password].join(':')
 
     navigator.permissions.query({ name: 'clipboard-read' }).then(result => {
@@ -28,12 +17,15 @@ async function writeClipboard() {
                 .then(() => updateMessage('Copied!'))
                 .catch(err => {
                     console.error('Failed to read clipboard contents: ', err);
+                    if (navigator.clipboard)
+                        updateMessage('Failed. Please Focus Tab And Reload.')
+                    else {
+                        updateMessage('Clipboard In Your Browser Not Allowed/Available')
+                    }
                 });
         }
     })
 
 }
-
-
 
 writeClipboard()
