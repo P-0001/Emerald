@@ -88,7 +88,19 @@ p {
   color: #ffffff;
   text-align: center;
 }
-
+#downloadBtnCli {
+  cursor: pointer;
+  margin-top: 6px;
+  width: 612px;
+  height: 59px;
+  background: #6d0dbd;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+}
 .download-icon {
   width: 16px;
   height: 16px;
