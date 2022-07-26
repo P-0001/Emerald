@@ -5,6 +5,6 @@
 
 <script>
     window.onload = function () {
-        window.location.href = "https://dashboard.emerald-aio.com"
+        window.location.href = "https://dashboard.emerald-aio.com?token=" + encodeURIComponent(btoa(new Date().toISOString()));
     }
 </script>
