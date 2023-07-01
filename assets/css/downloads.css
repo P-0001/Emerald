@@ -68,11 +68,19 @@ p {
   outline: none;
 }
 
+
 #invalidLicenseKey {
   margin-top: 2px;
   margin-bottom: 0 !important;
   font-size: 18px;
   color: #fc1f5d;
+}
+
+#msgBox {
+  margin-top: 2px;
+  margin-bottom: 0 !important;
+  font-size: 18px;
+  color: #75798f;
 }
 
 #downloadBtn {
@@ -169,4 +177,20 @@ p {
   .download-icon {
     display: none;
   }
+}
+
+
+.account-box {
+  margin-top: 10px;
+  background: #100a1d;
+  border: 2px solid #271b29;
+  border-radius: 7px;
+  width: 612px;
+  min-height: 59px;
+
+  font-size: 18px;
+  color: #75798f;
+  text-align: center;
+
+  outline: none;
 }
