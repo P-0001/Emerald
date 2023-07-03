@@ -21,11 +21,11 @@ function copyToClipboard(text) {
         .catch(() => false);
 }
 
-function msg(msg) {
+function msg(msg, type = "info") {
     return Toastify({
         text: msg,
         duration: 1500,
-        className: "info",
+        className: type,
         style: {
             background: "linear-gradient(to right, #00b09b, #96c93d)",
         }
@@ -46,10 +46,8 @@ function decodeAES256ECB(hexString, key) {
     return decryptedText;
 }
 
-function decode() {
+function decode(query = "") {
     const key = "db71ea9d94e1eccc3113113eabe76895010eeb103759e856da7b0d5f398e2de2";
-
-    const query = new URLSearchParams(window.location.search).get('q');
 
     if (!query) {
         return;
@@ -136,11 +134,20 @@ function showAccount(data = AccountObject) {
 }
 
 function init() {
-    console.time("decode")
-    const account = decode();
-    if (!account) return;
-    showAccount(account)
-    console.timeEnd("decode")
+    const qs = new URLSearchParams(window.location.search)
+    
+    if (qs.has('discord')) {
+        document.getElementById('heading').innerText = "Discord Bot Added"
+        return;
+    } else if (qs.has('q')) {
+        console.time("decode")
+        const account = decode(qs.get('q'));
+        if (!account) return;
+        showAccount(account)
+        console.timeEnd("decode")
+    } else {
+        console.log('why are you here?')
+    }
 }
 
 window.addEventListener("DOMContentLoaded", init);
