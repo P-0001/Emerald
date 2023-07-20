@@ -26,7 +26,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.download-module {
+.create-module {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -42,12 +42,6 @@ body {
 }
 
 .logo {
-  width: 88.98px;
-  height: 88.98px;
-  margin-top: 59px;
-}
-
-.logo2 {
   width: 88.98px;
   height: 88.98px;
   margin-top: 10px;
@@ -75,115 +69,20 @@ p {
 }
 
 
-#invalidLicenseKey {
-  margin-top: 2px;
-  margin-bottom: 0 !important;
-  font-size: 18px;
-  color: #fc1f5d;
-}
 
-#msgBox {
-  margin-top: 2px;
-  margin-bottom: 0 !important;
-  font-size: 18px;
-  color: #75798f;
-}
-
-#downloadBtn {
+#makeBtn {
   cursor: pointer;
   margin-top: 6px;
   width: 612px;
   height: 59px;
-  background: #6d0dbd;
+  background: #851cdb;
   border-radius: 7px;
+  border-color: #000000;
   border: none;
   outline: none;
   font-size: 18px;
   color: #ffffff;
   text-align: center;
-}
-#makeBtn,
-#downloadBtnCli {
-  cursor: pointer;
-  margin-top: 6px;
-  width: 612px;
-  height: 59px;
-  background: #6d0dbd;
-  border-radius: 7px;
-  border: none;
-  outline: none;
-  font-size: 18px;
-  color: #ffffff;
-  text-align: center;
-}
-.download-icon {
-  width: 16px;
-  height: 16px;
-
-  margin-left: 5px;
-}
-@media (max-width: 750px) {
-  .download-module {
-    width: 540.84px;
-    height: 383px;
-  }
-
-  .logo {
-    margin-top: 45px;
-  }
-
-  p {
-    margin-top: 34px;
-    font-size: 17px;
-  }
-
-  #licenseKey {
-    margin-top: 48px;
-    width: 473.53px;
-    height: 45.65px;
-  }
-
-  #downloadBtn {
-    margin-top: 27px;
-    width: 473.53px;
-    height: 45.65px;
-  }
-}
-
-@media (max-width: 550px) {
-  .download-module {
-    width: 378px;
-    height: 267.68px;
-  }
-
-  .logo {
-    margin-top: 31px;
-    width: 48.12px;
-    height: 48.12px;
-  }
-
-  p {
-    margin-top: 23px;
-    font-size: 11px;
-  }
-
-  #licenseKey {
-    margin-top: 44px;
-    width: 330.95px;
-    height: 31.91px;
-    font-size: 12px;
-  }
-
-  #downloadBtn {
-    margin-top: 19px;
-    width: 330.95px;
-    height: 31.91px;
-    font-size: 12px;
-  }
-
-  .download-icon {
-    display: none;
-  }
 }
 
 
@@ -221,15 +120,90 @@ p {
 
 #makeBtn:disabled,
 #makeBtn[disabled] {
-  cursor: pointer;
-  margin-top: 6px;
-  width: 612px;
-  height: 59px;
   background: #777679;
-  border-radius: 7px;
-  border: none;
-  outline: none;
-  font-size: 18px;
-  color: #ffffff;
-  text-align: center;
+}
+
+@media (max-width: 750px) {
+
+  .container {
+    height: 40vh;
+  }
+
+  .create-module {
+    width: 540.84px;
+    height: 383px;
+  }
+
+  .logo {
+    margin-top: 45px;
+  }
+
+  p {
+    margin-top: 34px;
+    font-size: 17px;
+  }
+
+  #licenseKey {
+    margin-top: 30px;
+    width: 473.53px;
+    height: 45.65px;
+  }
+
+  #firstname,
+  #type {
+    margin-top: 10px;
+    width: 473.53px;
+    height: 45.65px;
+  }
+
+  #makeBtn {
+    margin-top: 15px;
+    width: 473.53px;
+    height: 45.65px;
+  }
+}
+
+@media (max-width: 550px) {
+  .create-module {
+    width: 378px;
+    height: 267.68px;
+  }
+
+  .logo {
+    margin-top: 31px;
+    width: 48.12px;
+    height: 48.12px;
+  }
+
+  p {
+    margin-top: 23px;
+    font-size: 11px;
+  }
+
+  #licenseKey {
+    margin-top: 30px;
+    width: 330.95px;
+    height: 31.91px;
+    font-size: 12px;
+  }
+
+  #firstname,
+  #lastname,
+  #type {
+    margin-top: 10px;
+    width: 330.95px;
+    height: 31.91px;
+    font-size: 12px;
+  }
+
+  #makeBtn {
+    margin-top: 15px;
+    width: 330.95px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  .download-icon {
+    display: none;
+  }
 }

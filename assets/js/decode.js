@@ -1,5 +1,5 @@
 function formatPhoneNumber(
-    q = "",
+    q,
     format = "(###) ###-####",
 ) {
     const raw = typeof q === "string" ? q.replace(/[^0-9]/g, "") : q.toString();
@@ -97,7 +97,7 @@ const modNames = new Map([
 const toPascal = (t) => t[0].toUpperCase() + t.slice(1).toLowerCase();
 
 function showAccount(data = AccountObject) {
-    //
+
     for (const [key, value] of Object.entries(data)) {
         let val = value || "";
 
@@ -127,15 +127,13 @@ function showAccount(data = AccountObject) {
                     })
                     .catch(() => msg(`Failed to copy ${key} to clipboard`));
             });
-        } else {
-            // console.log(key + " not found");
         }
     }
 }
 
 function init() {
     const qs = new URLSearchParams(window.location.search)
-    
+
     if (qs.has('discord')) {
         document.getElementById('heading').innerText = "Discord Bot Added"
         return;
