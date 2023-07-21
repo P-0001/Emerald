@@ -1,8 +1,9 @@
 const uuidRegex = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$/i;
 const gmailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
 const domainRegex = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+const appVersion = "1.0.0";
 
-
+let nanoid = (t = 21) => crypto.getRandomValues(new Uint8Array(t)).reduce(((t, e) => t += (e &= 63) < 36 ? e.toString(36) : e < 62 ? (e - 26).toString(36).toUpperCase() : e > 62 ? "-" : "_"), "");
 let modData = [{
     "mod": "",
     "name": "",
@@ -27,6 +28,8 @@ function msg(msg, type = "info") {
 
 async function request(path, opts = {}) {
     const baseURL = new URL(window.location.href).origin.includes("localhost") ? "http://localhost:4444/" : "https://emerald-api.onrender.com/";
+    if (!opts.headers) opts.headers = {};
+    opts.headers["x-app-version"] = appVersion;
     const response = await fetch(baseURL + path, opts);
     const data = await response.json();
     return data;
@@ -85,7 +88,7 @@ function cleanGmail(gmail) {
 }
 
 function genBody() {
-    const id = window.crypto.randomUUID();
+    const id = nanoid(12);
     const key = document.getElementById("licenseKey").value;
     const firstName = document.getElementById("firstname").value;
     const lastName = document.getElementById("lastname").value;
