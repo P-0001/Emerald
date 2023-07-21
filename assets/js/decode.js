@@ -91,7 +91,27 @@ const modNames = new Map([
     ['chilis', "Chili's"],
     ['popeyes', 'Popeyes'],
     ['wb', 'Whataburger'],
-    ['sns', "Steak 'n Shake"]
+    ['sns', "Steak 'n Shake"],
+    ["firehousesubs", "Firehouse Subs"],
+    ["krispykreme", "Krispy Kreme"],
+    ["proxies", "Proxies"],
+    ["tacobell", "Taco Bell"],
+    ["panera", "Panera"],
+    ["bjs", "Bjs"],
+    ["ihop", "iHop"],
+    ["deltaco", "Del Taco"],
+    ["dairyqueen", "Dairy Queen"],
+    ["wendys", "Wendy's"],
+    ["qdoba", "Qdoba"],
+    ["jimmyjohns", "Jimmy John's"],
+    ["dennys", "Denny's"],
+    ["wetzelspretzels", "Wetzel's Pretzels"],
+    ["mcdonalds", "Mcdonald's"],
+    ["bojangles", "Bojangles"],
+    ["chilis", "Chili's"],
+    ["popeyes", "Popeyes"],
+    ["whataburger", "Whataburger"],
+    ["steaknshake", "Steak 'n Shake"],
 ]);
 
 const toPascal = (t) => t[0].toUpperCase() + t.slice(1).toLowerCase();

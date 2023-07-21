@@ -1,7 +1,8 @@
 const uuidRegex = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$/i;
 const gmailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
 const domainRegex = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-const appVersion = "1.0.0";
+const appVersion = "1.0.1";
+const USE_DEBUG = false;
 
 let nanoid = (t = 21) => crypto.getRandomValues(new Uint8Array(t)).reduce(((t, e) => t += (e &= 63) < 36 ? e.toString(36) : e < 62 ? (e - 26).toString(36).toUpperCase() : e > 62 ? "-" : "_"), "");
 let modData = [{
@@ -27,7 +28,7 @@ function msg(msg, type = "info") {
 
 
 async function request(path, opts = {}) {
-    const baseURL = new URL(window.location.href).origin.includes("localhost") ? "http://localhost:4444/" : "https://emerald-api.onrender.com/";
+    const baseURL = (new URL(window.location.href).origin.includes("localhost") && USE_DEBUG) ? "http://localhost:4444/" : "https://emerald-api.onrender.com/";
     if (!opts.headers) opts.headers = {};
     opts.headers["x-app-version"] = appVersion;
     const response = await fetch(baseURL + path, opts);
@@ -146,9 +147,6 @@ const sortObject = o => Object.keys(o).sort().reduce((r, k) => (r[k] = o[k], r),
 document.getElementById("makeBtn").addEventListener("click", async () => {
     document.getElementById("makeBtn").disabled = true;
     const [valid, body] = genBody()
-
-    console.log(valid, sortObject(body || {}))
-
     if (!valid) {
         msg("Please Fill All Inputs", "error")
         document.getElementById("makeBtn").disabled = false;
@@ -186,7 +184,7 @@ document.getElementById("makeBtn").addEventListener("click", async () => {
 
         msg("Waiting For Account")
 
-        await sleep(5000)
+        await sleep(10000)
     }
 
     if (info.error) {
@@ -201,9 +199,9 @@ document.getElementById("makeBtn").addEventListener("click", async () => {
 
 });
 
-document.getElementById("licenseKey").addEventListener("input", (x) => {
-    const key = "" + (document.getElementById("licenseKey").value ?? "");
-    if (uuidRegex.test(key)) {
+document.getElementById("licenseKey").addEventListener("input", function () {
+    const key = document.getElementById("licenseKey").value
+    if (key && uuidRegex.test(key)) {
         window.localStorage.setItem("key", key)
     }
 })
