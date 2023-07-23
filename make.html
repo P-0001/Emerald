@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/make.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/make.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="icon" href="./images/icon.png" />
-    <title>Emerald</title>
+    <title>Emerald Make</title>
 </head>
 
 <body>
@@ -18,7 +18,6 @@
 
             <span>Leave The Optional Fields Blank For Random</span>
 
-
             <input id="licenseKey" type="text" placeholder="Key" />
 
             <select class="type-box" id="type">
@@ -27,14 +26,13 @@
 
 
             <input id="firstname" class="account-box" type="text" placeholder="First Name (optional)">
-            <input id="lastname" class="account-box" type="text" placeholder="Last Name (optional)">
 
+            <input id="lastname" class="account-box" type="text" placeholder="Last Name (optional)">
 
             <input style="display: none;" id="mail" class="account-box" type="text"
                 placeholder="Gmail or Catchall (exp test@gmail.com or domain.com)">
+
             <input style="display: none;" id="gmail" class="account-box" type="text" placeholder="Gmail">
-
-
 
             <button id="makeBtn" type="submit">
                 Make Account
@@ -44,9 +42,8 @@
     </div>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script src="./assets/js/make.js"></script>
+    <script type="text/javascript" src="./assets/js/make.js"></script>
 
 </body>
-
 
 </html>

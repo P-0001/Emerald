@@ -149,6 +149,9 @@ p {
     height: 45.65px;
   }
 
+  #gmail,
+  #mail,
+  #lastname,
   #firstname,
   #type {
     margin-top: 10px;
@@ -186,7 +189,9 @@ p {
     height: 31.91px;
     font-size: 12px;
   }
-
+  
+  #gmail,
+  #mail,
   #firstname,
   #lastname,
   #type {
