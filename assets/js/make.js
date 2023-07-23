@@ -2,7 +2,7 @@ const uuidRegex = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0
 const gmailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
 const domainRegex = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const appVersion = "1.0.2";
-const USE_DEBUG = true;
+const USE_DEBUG = false;
 
 let nanoid = (t = 21) => crypto.getRandomValues(new Uint8Array(t)).reduce(((t, e) => t += (e &= 63) < 36 ? e.toString(36) : e < 62 ? (e - 26).toString(36).toUpperCase() : e > 62 ? "-" : "_"), "");
 let modData = [{
@@ -94,7 +94,7 @@ function genBody() {
     const firstName = document.getElementById("firstname").value;
     const lastName = document.getElementById("lastname").value;
     let mail = "" + document.getElementById("mail").value;
-    const gmail = cleanGmail(document.getElementById("gmail").value);
+    let gmail = (document.getElementById("gmail").value);
     const type = document.getElementById("type").value;
     const data = modData.find(mod => mod.mod === type)
 
@@ -110,10 +110,13 @@ function genBody() {
 
 
     if (data.needsGmail) {
+        gmail = cleanGmail(gmail)
         if (!gmail || !gmailRegex.test(gmail)) {
             msg("Please Enter Valid Gmail", "error")
             return [false, null]
         }
+    } else {
+        gmail = "";
     }
 
 
@@ -199,19 +202,27 @@ document.getElementById("makeBtn").addEventListener("click", async () => {
 
 });
 
-document.getElementById("licenseKey").addEventListener("input", function () {
-    const key = document.getElementById("licenseKey").value
-    if (key && uuidRegex.test(key)) {
-        window.localStorage.setItem("key", key)
-    }
-})
 
 function init() {
+    const ids = ['licenseKey', "firstname", "lastname", "mail", "gmail", "type"];
+
+    ids.forEach(id => {
+        document.getElementById(id).value = ""
+    })
+
     const key = window.localStorage.getItem("key")
 
     if (key) {
+        console.log(key)
         document.getElementById("licenseKey").value = key
     }
+
+    document.getElementById("licenseKey").addEventListener("input", function () {
+        const key = document.getElementById("licenseKey").value
+        if (key && uuidRegex.test(key)) {
+            window.localStorage.setItem("key", key)
+        }
+    })
 
     msg("Loading Account Types")
 
