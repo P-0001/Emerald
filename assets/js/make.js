@@ -1,8 +1,8 @@
 const uuidRegex = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$/i;
 const gmailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
 const domainRegex = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-const appVersion = "1.0.5";
-const USE_DEBUG = false;
+const appVersion = "1.0.6";
+const USE_DEBUG = true;
 const initSeconds = 5;
 
 let nanoid = (t = 21) => crypto.getRandomValues(new Uint8Array(t)).reduce(((t, e) => t += (e &= 63) < 36 ? e.toString(36) : e < 62 ? (e - 26).toString(36).toUpperCase() : e > 62 ? "-" : "_"), "");

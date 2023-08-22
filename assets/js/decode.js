@@ -15,7 +15,7 @@ function formatPhoneNumber(
     return formatted.join("");
 }
 
-function copyToClipboard(text) {
+async function copyToClipboard(text) {
     return navigator.clipboard.writeText(text)
         .then(() => true)
         .catch(() => false);
@@ -77,7 +77,7 @@ const modNames = new Map([
     ['proxies', 'Proxies'],
     ['tacobell', 'Taco Bell'],
     ['panera', 'Panera'],
-    ['bj', 'Bjs'],
+    ['bj', `BJ's`],
     ['iHop', 'iHop'],
     ['delTaco', 'Del Taco'],
     ['dq', 'Dairy Queen'],
@@ -112,6 +112,7 @@ const modNames = new Map([
     ["popeyes", "Popeyes"],
     ["whataburger", "Whataburger"],
     ["steaknshake", "Steak 'n Shake"],
+    ["wingstop", "Wingstop"],
 ]);
 
 const toPascal = (t) => t[0].toUpperCase() + t.slice(1).toLowerCase();
@@ -136,7 +137,6 @@ function showAccount(data = AccountObject) {
             element.value = `${toPascal(key)}: ${val}`;
             element.style.display = "block";
             element.addEventListener("click", function () {
-                // console.log(key + " click");
                 copyToClipboard(val)
                     .then((v) => {
                         if (v) {
