@@ -1,11 +1,11 @@
 const uuidRegex = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$/i;
 const gmailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
 const domainRegex = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-const appVersion = "1.0.6";
-const USE_DEBUG = true;
+const appVersion = "1.0.7";
+const USE_DEBUG = false;
 const initSeconds = 5;
-
-let nanoid = (t = 21) => crypto.getRandomValues(new Uint8Array(t)).reduce(((t, e) => t += (e &= 63) < 36 ? e.toString(36) : e < 62 ? (e - 26).toString(36).toUpperCase() : e > 62 ? "-" : "_"), "");
+const sleep = (ms) => new Promise(r => setTimeout(r, ms)).then(() => { });
+const nanoid = (t = 21) => crypto.getRandomValues(new Uint8Array(t)).reduce(((t, e) => t += (e &= 63) < 36 ? e.toString(36) : e < 62 ? (e - 26).toString(36).toUpperCase() : e > 62 ? "-" : "_"), "");
 let modData = [{
     "mod": "",
     "name": "",
@@ -14,25 +14,27 @@ let modData = [{
     "active": false
 }];
 
-const sleep = (ms) => new Promise(r => setTimeout(r, ms));
-
 function msg(msg, type = "info") {
-    return Toastify({
+    let color = "linear-gradient(to right, #00b09b, #96c93d)"
+
+    if (type === "error") {
+        color = "linear-gradient(to right, #ff5f6d, #ffc371)"
+    }
+
+    Toastify({
         text: msg,
-        duration: 1500,
+        duration: 2000,
         className: type,
         style: {
-            background: "linear-gradient(to right, #00b09b, #96c93d)",
+            background: color,
         }
     }).showToast()
 }
 
 async function poll(data) {
-    let info = undefined;
+    let info;
 
     const body = JSON.stringify(data, null, 0)
-
-    console.log(body)
 
     for (let i = 0; i < 4; i++) {
 
@@ -224,11 +226,10 @@ function init() {
         document.getElementById(id).value = ""
     })
 
-    const key = window.localStorage.getItem("key")
+    const savedKey = window.localStorage.getItem("key")
 
-    if (key) {
-        console.log(key)
-        document.getElementById("licenseKey").value = key
+    if (savedKey) {
+        document.getElementById("licenseKey").value = savedKey
     }
 
     document.getElementById("licenseKey").addEventListener("input", function () {
